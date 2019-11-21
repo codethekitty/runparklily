@@ -1,0 +1,40 @@
+1	Joshua STYRON	19:02	VM45-49	74.52 %	M	1		PB stays at 00:19:01	86	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+2	Adam STYRON	20:58	SM18-19	63.59 %	M	2		PB stays at 00:19:38	79	Member of the parkrun 50 Club
+3	Henry STYRON	21:39	JM15-17	63.28 %	M	3		PB stays at 00:19:57	51	Member of the parkrun 50 Club
+4	Benjamin KOHLER	21:43	JM15-17	63.09 %	M	4		First Timer!	1	
+5	Evan J KUMPELIS	21:44	JM11-14	68.40 %	M	5		First Timer!	1	
+6	Barbara THOMPSON	22:42	VW35-39	66.30 %	F	1	Lillie parkrunners	New PB!	28	
+7	Calvin WU	22:47	SM30-34	57.06 %	M	6	Lillie parkrunners	New PB!	28	
+8	Alison ROTH	24:29	VW35-39	62.08 %	F	2	Century Club	New PB!	45	
+9	Aldus K. YUN	24:44	JM11-14	61.86 %	M	7		PB stays at 00:24:10	27	Member of the parkrun 10 Club
+10	Reed SWANSON	24:48	VM55-59	64.11 %	M	8	Ann Arbor Track Club	PB stays at 00:24:11	29	
+11	Alex CAHILL	24:53	SM30-34	52.11 %	M	9	Lillie parkrunners	PB stays at 00:22:27	97	Member of the parkrun 50 Club
+12	Scott REVORD	25:03	VM50-54	59.81 %	M	10	Lillie parkrunners	PB stays at 00:24:25	56	Member of the parkrun 50 Club
+13	Sachiko TSUBOUCHI	25:16	VW45-49	63.46 %	F	3		PB stays at 00:25:09	56	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+14	Stephanie EVANS	26:06	SW25-29	56.70 %	F	4	Lillie parkrunners	PB stays at 00:21:49	183	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+15	Yuma TSUBOUCHI	26:08	JM11-14	56.89 %	M	11		PB stays at 00:25:45	52	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+16	Douglas CARVER	26:26	VM35-39	49.87 %	M	12		PB stays at 00:24:28	17	
+17	Emma KEER	27:43	SW20-24	53.40 %	F	5	Lillie parkrunners	New PB!	50	Member of the parkrun 50 Club
+18	Tim KEER	27:46	VM50-54	54.44 %	M	13	Livonia parkrunners	PB stays at 00:23:57	118	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+19	Mitchell GARNER	28:54	VM65-69	60.32 %	M	14		PB stays at 00:28:41	7	
+20	John PASTULA	29:26	VM50-54	50.51 %	M	15		PB stays at 00:29:15	26	
+21	Savio POOVATHINGAL	30:39	SM30-34	42.20 %	M	16		New PB!	26	
+22	Tricia JONES	30:49	VW50-54	56.52 %	F	6	Lillie parkrunners	PB stays at 00:30:07	33	
+23	Joy SWANSON	30:50	JW15-17	50.27 %	F	7	Ann Arbor Track Club	New PB!	20	Member of the parkrun 10 Club
+24	Sarah RICHARDSON	31:50	VW35-39	47.12 %	F	8		PB stays at 00:25:41	22	
+25	Tiffany FITZPATRICK	31:51	SW30-34	46.57 %	F	9		PB stays at 00:30:02	14	
+26	T. Charles YUN	32:38	VM45-49	44.13 %	M	17		PB stays at 00:27:40	24	
+27	Torsten J. YUN	32:39	JM10	50.08 %	M	18		New PB!	27	Member of the parkrun 10 Club
+28	Leena JONG	33:16	VW40-44	47.29 %	F	10		PB stays at 00:31:05	12	
+29	Yen KONG	33:17	VM40-44	42.26 %	M	19		New PB!	9	
+30	Amanda SZOT	34:53	VW40-44	45.10 %	F	11	Lillie parkrunners	PB stays at 00:33:47	37	
+31	Mike SELESKO	40:56	SM25-29	31.51 %	M	20		First Timer!	2	
+32	Unknown									
+33	Kaden P KUMPELIS	44:34	JM15-17	30.29 %	M	22		First Timer!	1	
+34	Jane THERIAULT	44:34	VW60-64	42.93 %	F	12		New PB!	8	
+35	Emily EISBRUCH	48:27	VW60-64	39.49 %	F	13		PB stays at 00:41:56	19	
+36	Rangarao RAVU	48:54	VM35-39	27.51 %	M	23		First Timer!	3	
+37	Raghuma SAMA	48:58	VM40-44	28.08 %	M	24		First Timer!	1	
+38	Rajender GADE	49:55	VM35-39	26.94 %	M	25		First Timer!	1	
+39	Amy ANDERSON	49:55	VW40-44	31.52 %	F	14		First Timer!	1	
+40	Adam HOCKLEY	58:26	SM25-29	22.08 %	M	26	Lillie parkrunners	PB stays at 00:19:57	34	Member of the parkrun v25 Club

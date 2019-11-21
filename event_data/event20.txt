@@ -1,0 +1,31 @@
+1	Colin PHILLIPS	19:13	VM50-54	77.36 %	M	1	College Park parkrunners	New PB!	115	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+2	Joshua STYRON	19:41	VM45-49	72.06 %	M	2		PB stays at 00:19:01	86	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+3	Adam STYRON	20:48	SM18-19	64.10 %	M	3		PB stays at 00:19:38	79	Member of the parkrun 50 Club
+4	James JANKOWSKI	21:39	VM50-54	68.67 %	M	4	Ann Arbor Track Club	PB stays at 00:20:38	18	
+5	Calvin WU	23:45	SM30-34	54.74 %	M	5	Lillie parkrunners	PB stays at 00:22:13	28	
+6	Douglas CARVER	25:45	VM35-39	51.20 %	M	6		New PB!	17	
+7	Derek BYCRAFT	26:22	SM25-29	48.93 %	M	7		PB stays at 00:23:30	14	
+8	Sachiko TSUBOUCHI	26:48	VW45-49	59.83 %	F	1		PB stays at 00:25:09	56	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+9	Stephanie EVANS	27:26	SW25-29	53.95 %	F	2	Lillie parkrunners	PB stays at 00:21:49	183	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+10	Yuma TSUBOUCHI	27:27	JM11-14	54.16 %	M	8		PB stays at 00:25:45	52	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+11	Adam HOCKLEY	27:31	SM25-29	46.88 %	M	9	Lillie parkrunners	PB stays at 00:19:57	34	Member of the parkrun v25 Club
+12	Matthew JONES	29:09	VM55-59	52.72 %	M	10		New PB!	29	
+13	Charlotte CHIMBIRA	29:37	SW20-24	49.97 %	F	3		First Timer!	1	
+14	Scott REVORD	29:52	VM50-54	50.17 %	M	11	Lillie parkrunners	PB stays at 00:24:25	56	Member of the parkrun 50 Club
+15	Savio POOVATHINGAL	31:18	SM30-34	41.32 %	M	12		PB stays at 00:30:32	26	
+16	George KASDORF	31:23	VM65-69	55.55 %	M	13	Lillie parkrunners	PB stays at 00:30:57	48	
+17	Joe LIBIN	31:52	VM45-49	44.51 %	M	14		PB stays at 00:31:20	26	
+18	Tricia JONES	32:03	VW50-54	54.34 %	F	4	Lillie parkrunners	PB stays at 00:30:07	33	
+19	John PASTULA	32:41	VM50-54	45.49 %	M	15		PB stays at 00:29:15	26	
+20	Amanda SZOT	35:29	VW40-44	44.34 %	F	5	Lillie parkrunners	PB stays at 00:33:47	37	
+21	Aldus K. YUN	36:03	JM11-14	42.44 %	M	16		PB stays at 00:24:10	27	Member of the parkrun 10 Club
+22	Kristine YUN	36:40	VW40-44	42.59 %	F	6		PB stays at 00:34:40	25	
+23	Unknown									
+24	Scott BERTSCH	40:44	VM45-49	35.64 %	M	18		First Timer!	5	
+25	Liam TORREANO	42:10	JM10	38.77 %	M	19		New PB!	9	
+26	Alison ROTH	42:14	VW35-39	35.99 %	F	7	Century Club	PB stays at 00:24:29	45	
+27	Emily EISBRUCH	47:42	VW60-64	40.11 %	F	8		PB stays at 00:41:56	19	
+28	T. Charles YUN	49:01	VM45-49	29.38 %	M	20		PB stays at 00:27:40	24	
+29	Torsten J. YUN	49:02	JM10	33.34 %	M	21		PB stays at 00:32:39	27	Member of the parkrun 10 Club
+30	Barbara THOMPSON	51:46	VW35-39	29.07 %	F	9	Lillie parkrunners	PB stays at 00:22:16	28	
+31	Gabriel THOMPSON	51:47	VM35-39	25.78 %	M	22		PB stays at 00:27:33	20	

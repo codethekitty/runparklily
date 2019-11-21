@@ -1,0 +1,26 @@
+1	Dave REYNOLDS	22:26	SM30-34	57.80 %	M	1		First Timer!	60	Member of the parkrun 50 Club
+2	Chris ROTHER	25:00	SM20-24	51.60 %	M	2		PB stays at 00:23:32	17	
+3	Ali KHOYEE	25:04	VM35-39	52.93 %	M	3		New PB!	37	
+4	Scott REVORD	25:43	VM50-54	57.81 %	M	4	Lillie parkrunners	New PB!	56	Member of the parkrun 50 Club
+5	Aaron PRATT	25:56	VM60-64	64.07 %	M	5	Ann Arbor Track Club	New PB!	2	
+6	Erin LARUSSO	25:57	VW45-49	63.07 %	F	1	Ann Arbor Track Club	First Timer!	1	
+7	Yuma TSUBOUCHI	28:28	JM11-14	52.22 %	M	6		PB stays at 00:25:45	52	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+8	Karin EHRSCHWENDTNER	29:54	VW45-49	54.18 %	F	2		First Timer!	1	
+9	Lydia BINELLI	30:07	JW10	56.67 %	F	3		First Timer!	5	
+10	Tricia JONES	31:58	VW50-54	54.48 %	F	4	Lillie parkrunners	PB stays at 00:30:07	33	
+11	Kelly SOVACOOL	32:18	SW20-24	45.82 %	F	5		New PB!	13	
+12	George KASDORF	32:23	VM65-69	53.83 %	M	7	Lillie parkrunners	First Timer!	48	
+13	Hiren SAVALIYA	32:53	SM25-29	39.23 %	M	8		First Timer!	1	
+14	Tiffany FITZPATRICK	34:28	SW30-34	43.04 %	F	6		First Timer!	14	
+15	Emma KEER	34:52	SW18-19	42.59 %	F	7	Lillie parkrunners	New PB!	50	Member of the parkrun 50 Club
+16	Nicola NORTON	34:56	VW45-49	46.85 %	F	8	Lillie parkrunners	PB stays at 00:31:27	27	
+17	Beth VANDUSEN	35:22	VW35-39	42.27 %	F	9		PB stays at 00:32:40	19	
+18	Evan BINELLI	36:31	JM10	46.60 %	M	9		First Timer!	4	
+19	Paul BINELLI	36:36	VM40-44	38.43 %	M	10		First Timer!	5	
+20	Amanda SZOT	38:05	VW40-44	41.31 %	F	10	Lillie parkrunners	New PB!	37	
+21	Matthew JONES	38:52	VM55-59	39.54 %	M	11		First Timer!	29	
+22	Sharlene DESKINS	39:17	VW50-54	44.89 %	F	11	Prince George's Running Club	PB stays at 00:36:42	44	
+23	Unknown									
+24	Unknown									
+25	Unknown									
+26	Sachiko TSUBOUCHI	50:05	VW45-49	31.71 %	F	12		PB stays at 00:25:09	56	Member of the parkrun 50 ClubMember of the parkrun v25 Club

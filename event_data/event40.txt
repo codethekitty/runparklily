@@ -1,0 +1,94 @@
+1	Brandon FINN	18:11	SM25-29	71.04 %	M	1		PB stays at 00:18:06	35	
+2	David BUCK	19:39	JM15-17	69.72 %	M	2		New PB!	2	
+3	Joshua STYRON	20:01	VM45-49	71.36 %	M	3		PB stays at 00:19:01	86	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+4	Adam STYRON	20:58	SM18-19	63.59 %	M	4		PB stays at 00:19:38	79	Member of the parkrun 50 Club
+5	Taran FLYNN	20:59	JM15-17	66.32 %	M	5		First Timer!	1	
+6	Brad BOYER	21:31	VM50-54	69.64 %	M	6		PB stays at 00:21:21	29	
+7	John MANNING	22:00	VM65-69	76.21 %	M	7	Tring RC	First Timer!	78	Member of the parkrun 50 Club
+8	Richard PEARSON	22:40	VM40-44	61.10 %	M	8	Ann Arbor Track Club	First Timer!	1	
+9	Lindsay KOBAYASHI	22:43	SW30-34	65.22 %	F	1		PB stays at 00:22:14	33	
+10	Zeke MAJESKE	22:59	SM20-24	56.35 %	M	9		First Timer!	2	
+11	Darren STONE	23:50	VM45-49	61.40 %	M	10		New PB!	9	
+12	Tim KEER	24:16	VM50-54	62.29 %	M	11	Livonia parkrunners	PB stays at 00:23:57	118	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+13	Henry ZHAO	24:39	JM10	64.03 %	M	12		First Timer!	2	
+14	Xiaomei CAI	24:49	VW45-49	66.76 %	F	2		New PB!	5	
+15	David OSBORNE	24:49	VM45-49	57.56 %	M	13	Lillie parkrunners	New PB!	5	
+16	Nelson TELLO	24:57	VM45-49	57.25 %	M	14		PB stays at 00:24:50	3	
+17	Gerald HISH	24:59	VM45-49	57.17 %	M	15		First Timer!	2	
+18	David PERKS	25:07	VM50-54	59.19 %	M	16		First Timer!	40	
+19	John SCHAFER	25:24	JM15-17	53.15 %	M	17		PB stays at 00:23:26	3	
+20	Alex CAHILL	25:44	SM30-34	50.39 %	M	18	Lillie parkrunners	PB stays at 00:22:27	97	Member of the parkrun 50 Club
+21	Matt RIDENOUR	25:51	VM45-49	56.61 %	M	19		New PB!	3	
+22	David GUYETT-SMITH	26:03	VM45-49	54.83 %	M	20		First Timer!	133	Member of the parkrun 100 Club
+23	Reed SWANSON	26:15	VM55-59	60.57 %	M	21	Ann Arbor Track Club	PB stays at 00:24:11	29	
+24	Jackson STOEFFLER	26:38	JM11-14	57.45 %	M	22		PB stays at 00:26:29	6	
+25	Liam RIDENOUR	26:50	JM11-14	54.04 %	M	23		New PB!	10	Member of the parkrun 10 Club
+26	Janelle SCHAFER	26:53	JW11-14	59.39 %	F	3		New PB!	2	
+27	Sachiko TSUBOUCHI	26:54	VW45-49	59.60 %	F	4		PB stays at 00:25:09	56	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+28	Joseph SCHAFER	26:59	JM10	60.59 %	M	24		New PB!	2	
+29	Deborah CARBONE	27:00	VW40-44	56.98 %	F	5		New PB!	2	
+30	Chris WALKER	27:07	SM30-34	47.70 %	M	25		PB stays at 00:26:34	193	Member of the parkrun 100 Club
+31	Adam HOCKLEY	27:08	SM25-29	47.54 %	M	26	Lillie parkrunners	PB stays at 00:19:57	34	Member of the parkrun v25 Club
+32	Aldus K. YUN	27:24	JM11-14	54.26 %	M	27		PB stays at 00:24:10	27	Member of the parkrun 10 Club
+33	Scott REVORD	27:52	VM50-54	53.77 %	M	28	Lillie parkrunners	PB stays at 00:24:25	56	Member of the parkrun 50 Club
+34	Unknown									
+35	Ciara ARMSTRONG	28:13	JW15-17	54.93 %	F	6		First Timer!	2	
+36	Unknown									
+37	Alison ROTH	28:20	VW35-39	53.65 %	F	7	Century Club	PB stays at 00:24:29	45	
+38	Emma KEER	28:27	SW20-24	52.02 %	F	8	Lillie parkrunners	PB stays at 00:26:48	50	Member of the parkrun 50 Club
+39	Matthew JONES	28:32	VM55-59	53.86 %	M	31		New PB!	29	
+40	Oliver STUTTAFORD	28:32	SM20-24	45.21 %	M	32		First Timer!	1	
+41	Ming BIAN	28:45	VM45-49	50.09 %	M	33		New PB!	2	
+42	Muhammad TELLO	28:46	SM20-24	44.84 %	M	34		New PB!	3	
+43	Tanya ARMSTRONG	28:49	VW40-44	54.60 %	F	9		New PB!	5	
+44	Tom THOENI	29:01	VM55-59	53.88 %	M	35		First Timer!	1	
+45	Stephanie EVANS	29:01	SW25-29	51.01 %	F	10	Lillie parkrunners	PB stays at 00:21:49	183	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+46	Quincey THOENI	29:15	VW50-54	60.28 %	F	11		First Timer!	1	
+47	Abbie BUHR	29:19	VW35-39	51.17 %	F	12		PB stays at 00:28:52	5	
+48	Lorraine HORWITZ	30:00	SW25-29	49.33 %	F	13		New PB!	2	
+49	Sam BERTCHER	30:10	JM11-14	48.07 %	M	36		New PB!	7	
+50	Nicole RIDENOUR	30:50	VW45-49	52.00 %	F	14		PB stays at 00:29:59	9	
+51	Caitlin HULT	30:55	SW25-29	47.87 %	F	15		PB stays at 00:29:37	4	
+52	Rylan ARMSTRONG	31:15	JM11-14	46.40 %	M	37		First Timer!	2	
+53	Joy SWANSON	31:28	JW15-17	49.26 %	F	16	Ann Arbor Track Club	PB stays at 00:30:01	20	Member of the parkrun 10 Club
+54	Ashokkumar GANESAN	31:38	VM40-44	44.47 %	M	38	Lillie parkrunners	PB stays at 00:27:38	11	
+55	George KASDORF	31:45	VM65-69	54.91 %	M	39	Lillie parkrunners	PB stays at 00:30:57	48	
+56	Mithul ASHOKKUMAR	32:07	JM11-14	47.64 %	M	40	Lillie parkrunners	PB stays at 00:29:56	9	
+57	Tricia JONES	32:25	VW50-54	54.40 %	F	17	Lillie parkrunners	PB stays at 00:30:07	33	
+58	Unknown									
+59	Unknown									
+60	Abdullah TELLO	32:36	JM15-17	41.41 %	M	43		New PB!	3	
+61	Abigail SCHAFER	33:27	JW15-17	46.34 %	F	18		New PB!	2	
+62	Hans LECHNER	33:35	JM10	47.00 %	M	44		PB stays at 00:24:49	21	Member of the parkrun 10 Club
+63	Ty MEAGHER	33:38	JM11-14	45.49 %	M	45	Lillie parkrunners	First Timer!	1	
+64	Jolynn SCHAFER	33:39	VW50-54	51.76 %	F	19		New PB!	2	
+65	Brooke WOLFORD	33:53	SW25-29	43.68 %	F	20		PB stays at 00:32:14	3	
+66	Jack NORTON	33:55	JM11-14	41.82 %	M	46		First Timer!	2	
+67	Unknown									
+68	Nicola NORTON	34:04	VW45-49	48.04 %	F	21	Lillie parkrunners	PB stays at 00:31:27	27	
+69	Gabrielle DOTSON	34:12	SW20-24	43.27 %	F	22		PB stays at 00:31:49	5	
+70	Joe LIBIN	34:47	VM45-49	40.78 %	M	48		PB stays at 00:31:20	26	
+71	Carolyn CATLETT	34:48	VW35-39	43.25 %	F	23		First Timer!	2	
+72	Unknown									
+73	Kristin GAPSKE	35:31	VW50-54	48.38 %	F	24	Lillie parkrunners	First Timer!	1	
+74	Amanda SZOT	35:43	VW40-44	44.05 %	F	25	Lillie parkrunners	PB stays at 00:33:47	37	
+75	Kristine YUN	35:45	VW40-44	43.68 %	F	26		PB stays at 00:34:40	25	
+76	David BERTCHER	36:38	JM10	46.45 %	M	50		PB stays at 00:33:36	8	
+77	Corey BERTCHER	37:09	VM50-54	40.02 %	M	51		PB stays at 00:29:01	9	
+78	Charlotte EZZO	37:09	SW25-29	39.84 %	F	27		First Timer!	3	
+79	Amy HEMMETER	37:19	SW25-29	39.66 %	F	28		First Timer!	1	
+80	Unknown									
+81	Unknown									
+82	Unknown									
+83	Carol TAYLOR	39:16	VW55-59	46.10 %	F	29		PB stays at 00:28:14	25	
+84	Torsten J. YUN	41:31	JM10	38.02 %	M	55		PB stays at 00:32:39	27	Member of the parkrun 10 Club
+85	Unknown									
+86	Unknown									
+87	Marie HAMLIN	45:08	VW55-59	41.80 %	F	30		New PB!	4	
+88	Priya KING	45:11	VW45-49	36.67 %	F	31		First Timer!	1	
+89	Alka JHA	45:35	SW30-34	32.69 %	F	32		PB stays at 00:36:43	8	
+90	Sarah WROBLEWSKI	45:37	SW25-29	32.44 %	F	33		PB stays at 00:36:20	4	
+91	Amanda PHOTENHAUER	47:20	SW25-29	31.27 %	F	34	Lillie parkrunners	PB stays at 00:26:28	11	
+92	Swetha RANGAM	47:22	SW30-34	31.32 %	F	35	Lillie parkrunners	New PB!	4	
+93	Tom LECHNER	52:16	VM65-69	33.35 %	M	58		New PB!	26	
+94	Calvin WU	52:47	SM30-34	24.63 %	M	59	Lillie parkrunners	PB stays at 00:22:13	28	

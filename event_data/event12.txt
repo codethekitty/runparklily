@@ -1,0 +1,54 @@
+1	Thomas PREISS	19:16	VM45-49	75.95 %	M	1		First Timer!	85	Member of the parkrun 50 Club
+2	Jeffrey OCHS	21:44	VM40-44	62.81 %	M	2		New PB!	4	
+3	Stephanie EVANS	23:10	SW25-29	63.88 %	F	1	Lillie parkrunners	New PB!	183	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+4	Tom NISBET	23:57	VM55-59	64.16 %	M	3		First Timer!	5	
+5	John SCHULTZ	24:08	SM30-34	54.07 %	M	4		New PB!	7	
+6	Alex CAHILL	24:19	SM30-34	53.19 %	M	5	Lillie parkrunners	PB stays at 00:22:27	97	Member of the parkrun 50 Club
+7	Scott COLMAN	24:20	VM50-54	62.60 %	M	6		New PB!	2	
+8	Chris ROTHER	24:29	SM20-24	52.69 %	M	7		New PB!	17	
+9	Barbara THOMPSON	24:31	VW35-39	61.39 %	F	2	Lillie parkrunners	New PB!	28	
+10	Alison ROTH	24:36	VW35-39	61.52 %	F	3	Century Club	New PB!	45	
+11	James SCHOLL	24:53	VM65-69	67.38 %	M	8	Brisbane Road Runners	New PB!	140	Member of the parkrun 100 Club
+12	Douglas CARVER	26:06	VM35-39	50.51 %	M	9		First Timer!	17	
+13	Christopher GILLYARD	27:11	VM50-54	56.04 %	M	10		PB stays at 00:26:03	21	
+14	Chandan KUMAR	27:20	VM45-49	53.54 %	M	11		New PB!	4	
+15	Elaine COHEN	27:26	VW45-49	59.66 %	F	4		New PB!	3	
+16	Yuma TSUBOUCHI	28:03	JM11-14	53.00 %	M	12		PB stays at 00:25:45	52	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+17	Sachiko TSUBOUCHI	28:03	VW45-49	57.16 %	F	5		PB stays at 00:25:09	56	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+18	Laura CROWLEY	28:08	VW55-59	64.34 %	F	6		First Timer!	2	
+19	Scott REVORD	28:22	VM50-54	52.82 %	M	13	Lillie parkrunners	PB stays at 00:24:25	56	Member of the parkrun 50 Club
+20	Aldus K. YUN	29:50	JM11-14	51.28 %	M	14		PB stays at 00:24:10	27	Member of the parkrun 10 Club
+21	Dianna BANKA	30:15	VW45-49	53.00 %	F	7		New PB!	7	
+22	Sarah RICHARDSON	30:26	VW35-39	49.29 %	F	8		New PB!	22	
+23	Andrew BANKA	30:45	VM55-59	49.97 %	M	15		New PB!	3	
+24	John PASTULA	30:48	VM50-54	47.89 %	M	16		PB stays at 00:29:15	26	
+25	Dawn SYLVESTER	30:51	VW55-59	58.67 %	F	9		First Timer!	1	
+26	Jennifer GROEHN	30:55	VW55-59	61.02 %	F	10		First Timer!	3	
+27	Iseul PARK	31:22	JW11-14	53.03 %	F	11		New PB!	6	
+28	Nicola NORTON	31:27	VW45-49	52.04 %	F	12	Lillie parkrunners	New PB!	27	
+29	Savio POOVATHINGAL	31:36	SM30-34	40.93 %	M	17		PB stays at 00:30:32	26	
+30	Tricia JONES	31:48	VW50-54	54.77 %	F	13	Lillie parkrunners	PB stays at 00:30:07	33	
+31	George KASDORF	32:08	VM65-69	54.25 %	M	18	Lillie parkrunners	PB stays at 00:30:57	48	
+32	Unknown									
+33	Jerry DOUGLAS	32:34	VM60-64	50.56 %	M	20		First Timer!	3	
+34	William HARRIS	33:20	JM11-14	43.50 %	M	21		New PB!	5	
+35	Joe LIBIN	33:32	VM45-49	42.30 %	M	22		PB stays at 00:31:20	26	
+36	John HARRIS	33:37	VM45-49	43.18 %	M	23		First Timer!	6	
+37	Emma KEER	33:45	SW18-19	44.00 %	F	14	Lillie parkrunners	PB stays at 00:26:48	50	Member of the parkrun 50 Club
+38	Sarah HARTUNG	34:29	VW60-64	55.49 %	F	15		First Timer!	1	
+39	Kristi SHAFFER	34:46	VW40-44	44.58 %	F	16		PB stays at 00:32:26	12	
+40	Catherine NISBET	34:53	VW55-59	51.89 %	F	17		First Timer!	5	
+41	Beth VANDUSEN	35:12	VW35-39	42.47 %	F	18		New PB!	19	
+42	Gabriel THOMPSON	35:26	VM35-39	37.68 %	M	24		New PB!	20	
+43	Unknown									
+44	Kranthi BANDARU	35:58	VM35-39	37.12 %	M	26	Lillie parkrunners	New PB!	23	
+45	Leena JONG	37:05	VW40-44	42.43 %	F	19		PB stays at 00:31:05	12	
+46	Yen KONG	37:06	VM40-44	37.92 %	M	27		PB stays at 00:31:04	9	
+47	Amanda SZOT	38:06	VW40-44	41.29 %	F	20	Lillie parkrunners	PB stays at 00:33:47	37	
+48	Kristine YUN	38:39	VW40-44	40.41 %	F	21		New PB!	25	
+49	Torsten J. YUN	39:48	JM10	41.08 %	M	28		PB stays at 00:32:39	27	Member of the parkrun 10 Club
+50	T. Charles YUN	39:49	VM45-49	36.17 %	M	29		PB stays at 00:27:40	24	
+51	Emily EISBRUCH	45:25	VW60-64	42.13 %	F	22		New PB!	19	
+52	Matthew JONES	45:36	VM55-59	33.70 %	M	30		PB stays at 00:28:32	29	
+53	Pamela CAIN	57:10	VW50-54	30.47 %	F	23		First Timer!	3	
+54	Ron LOCHOCKI	57:11	VM55-59	27.11 %	M	31		PB stays at 00:51:14	7	Member of the parkrun v25 Club

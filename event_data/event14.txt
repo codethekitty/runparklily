@@ -1,0 +1,28 @@
+1	Joshua STYRON	20:16	VM45-49	69.98 %	M	1		PB stays at 00:19:01	86	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+2	Adam STYRON	21:36	SM18-19	61.73 %	M	2		PB stays at 00:19:38	79	Member of the parkrun 50 Club
+3	Adam HOCKLEY	23:52	SM25-29	54.05 %	M	3	Lillie parkrunners	New PB!	34	Member of the parkrun v25 Club
+4	Calvin WU	24:48	SM30-34	52.42 %	M	4	Lillie parkrunners	First Timer!	28	
+5	Tom NISBET	24:59	VM55-59	61.51 %	M	5		PB stays at 00:23:57	5	
+6	Chris ROTHER	25:31	SM20-24	50.56 %	M	6		PB stays at 00:23:32	17	
+7	Stephanie EVANS	25:47	SW25-29	57.40 %	F	1	Lillie parkrunners	PB stays at 00:21:49	183	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+8	Douglas CARVER	26:42	VM35-39	49.38 %	M	7		PB stays at 00:24:28	17	
+9	Reed SWANSON	28:24	VM55-59	55.99 %	M	8	Ann Arbor Track Club	PB stays at 00:24:11	29	
+10	Laura CROWLEY	28:42	VW55-59	63.07 %	F	2		PB stays at 00:28:08	2	
+11	Scott REVORD	28:58	VM50-54	51.73 %	M	9	Lillie parkrunners	PB stays at 00:24:25	56	Member of the parkrun 50 Club
+12	Tiffany FITZPATRICK	30:02	SW30-34	49.39 %	F	3		New PB!	14	
+13	Joe LIBIN	31:48	VM45-49	44.60 %	M	10		New PB!	26	
+14	Kelly SOVACOOL	32:32	SW20-24	45.49 %	F	4		PB stays at 00:27:44	13	
+15	Kranthi BANDARU	33:42	VM35-39	39.61 %	M	11	Lillie parkrunners	New PB!	23	
+16	Savio POOVATHINGAL	33:45	SM30-34	38.32 %	M	12		PB stays at 00:30:32	26	
+17	Catherine NISBET	34:34	VW55-59	52.36 %	F	5		New PB!	5	
+18	Joy SWANSON	35:01	JW15-17	44.26 %	F	6	Ann Arbor Track Club	PB stays at 00:30:01	20	Member of the parkrun 10 Club
+19	Amanda SZOT	38:20	VW40-44	41.04 %	F	7	Lillie parkrunners	PB stays at 00:33:47	37	
+20	Crystal YOUNG	38:35	VW35-39	38.75 %	F	8		First Timer!	1	
+21	Unknown									
+22	Chelsea DANA	44:44	SW30-34	33.08 %	F	9	Ann Arbor Track Club	New PB!	5	
+23	Beth VANDUSEN	47:17	VW35-39	31.62 %	F	10		PB stays at 00:32:40	19	
+24	Courtney LOBATO	48:02	JW15-17	31.47 %	F	11		First Timer!	1	
+25	Pamela CAIN	54:46	VW50-54	31.80 %	F	12		New PB!	3	
+26	Ron LOCHOCKI	54:47	VM55-59	28.29 %	M	14		New PB!	7	Member of the parkrun v25 Club
+27	Unknown									
+28	Jonny LEWIS	55:02	VM60-64	29.65 %	M	16		PB stays at 00:30:37	6	

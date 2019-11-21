@@ -1,0 +1,32 @@
+1	Ethan PACHECK	19:55	SM25-29	64.77 %	M	1		PB stays at 00:19:06	8	
+2	Joshua STYRON	20:15	VM45-49	70.04 %	M	2		PB stays at 00:19:01	86	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+3	Adam STYRON	20:51	JM15-17	64.75 %	M	3		PB stays at 00:19:38	79	Member of the parkrun 50 Club
+4	Alex CAHILL	23:48	SM30-34	54.34 %	M	4	Lillie parkrunners	New PB!	97	Member of the parkrun 50 Club
+5	Ali KHOYEE	24:00	VM35-39	55.28 %	M	5		New PB!	37	
+6	Tim KEER	24:12	VM50-54	62.47 %	M	6	Livonia parkrunners	New PB!	118	Member of the parkrun 100 ClubMember of the parkrun v25 Club
+7	Scott REVORD	25:20	VM50-54	58.68 %	M	7	Lillie parkrunners	PB stays at 00:24:25	56	Member of the parkrun 50 Club
+8	John SCHULTZ	25:33	SM30-34	51.08 %	M	8		First Timer!	7	
+9	Alison ROTH	25:44	VW35-39	58.81 %	F	1	Century Club	PB stays at 00:24:29	45	
+10	Chris ROTHER	25:55	SM20-24	49.77 %	M	9		PB stays at 00:23:32	17	
+11	Sachiko TSUBOUCHI	27:03	VW45-49	59.27 %	F	2		PB stays at 00:25:09	56	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+12	Unknown									
+13	Erika HOLLIDAY	29:08	SW25-29	50.80 %	F	3		New PB!	3	
+14	Amanda LEGGETT	29:31	SW30-34	50.25 %	F	4	Ann Arbor Track Club	First Timer!	3	
+15	John PASTULA	29:53	VM50-54	49.36 %	M	11		PB stays at 00:29:15	26	
+16	Kristian FRIKKE-SCHMIDT	30:41	VM45-49	46.55 %	M	12		PB stays at 00:30:05	40	
+17	Yuma TSUBOUCHI	30:54	JM11-14	48.11 %	M	13		PB stays at 00:25:45	52	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+18	Jonny LEWIS	31:26	VM60-64	51.91 %	M	14		PB stays at 00:30:37	6	
+19	Savio POOVATHINGAL	31:34	SM25-29	40.92 %	M	15		New PB!	26	
+20	Megan BEARDSLEY	31:41	VW50-54	53.55 %	F	5		PB stays at 00:31:13	23	
+21	Lutgarde RASKIN	31:43	VW50-54	55.60 %	F	6		First Timer!	3	
+22	Emma KEER	32:32	SW18-19	45.65 %	F	7	Lillie parkrunners	New PB!	50	Member of the parkrun 50 Club
+23	Nicola NORTON	32:51	VW45-49	49.82 %	F	8	Lillie parkrunners	PB stays at 00:31:27	27	
+24	Matthew JONES	33:05	VM55-59	46.45 %	M	16		New PB!	29	
+25	Noah BROWN	33:39	JM10	48.59 %	M	17		New PB!	10	Member of the parkrun 10 Club
+26	Sophie BROWN	34:18	VW40-44	45.19 %	F	9		PB stays at 00:33:22	15	
+27	Beth VANDUSEN	35:32	VW35-39	42.07 %	F	10		PB stays at 00:32:40	19	
+28	Chelsey DALY	36:59	SW25-29	40.02 %	F	11		First Timer!	2	
+29	Amanda SZOT	37:22	VW40-44	42.11 %	F	12	Lillie parkrunners	PB stays at 00:33:47	37	
+30	Unknown									
+31	Unknown									
+32	Tricia JONES	47:47	VW50-54	36.45 %	F	13	Lillie parkrunners	PB stays at 00:30:07	33	

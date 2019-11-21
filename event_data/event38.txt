@@ -1,0 +1,54 @@
+1	Brandon FINN	18:56	SM25-29	68.13 %	M	1		First Timer!	35	
+2	Hirofumi FUJITA	19:31	VM40-44	70.45 %	M	2		New PB!	2	
+3	Carter CARIS	19:59	JM15-17	67.56 %	M	3		New PB!	21	Member of the parkrun 10 Club
+4	Joshua STYRON	20:13	VM45-49	70.65 %	M	4		PB stays at 00:19:01	86	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+5	James JANKOWSKI	21:44	VM50-54	68.40 %	M	5	Ann Arbor Track Club	PB stays at 00:20:38	18	
+6	Damian GATICA MIZALA	21:53	SM30-34	59.25 %	M	6		New PB!	3	
+7	Henry STYRON	22:56	JM15-17	58.87 %	M	7		PB stays at 00:19:57	51	Member of the parkrun 50 Club
+8	Lindsay KOBAYASHI	23:12	SW30-34	63.86 %	F	1		First Timer!	33	
+9	Adam STYRON	23:21	SM18-19	57.10 %	M	8		PB stays at 00:19:38	79	Member of the parkrun 50 Club
+10	Ali KHOYEE	24:38	VM35-39	54.19 %	M	9		PB stays at 00:24:00	37	
+11	Hans LECHNER	24:49	JM10	63.60 %	M	10		New PB!	21	Member of the parkrun 10 Club
+12	John SCHAFER	25:14	JM15-17	53.50 %	M	11		First Timer!	3	
+13	James SCHOLL	25:36	VM65-69	66.15 %	M	12	Brisbane Road Runners	PB stays at 00:24:53	140	Member of the parkrun 100 Club
+14	Adam HOCKLEY	25:41	SM25-29	50.23 %	M	13	Lillie parkrunners	PB stays at 00:19:57	34	Member of the parkrun v25 Club
+15	Paloma DUDA CORTES	26:22	JW15-17	58.79 %	F	2		New PB!	2	
+16	Greg SCHARER	26:24	VM60-64	61.81 %	M	14		First Timer!	1	
+17	Steve WISINSKI	26:37	VM40-44	52.85 %	M	15		PB stays at 00:26:35	5	
+18	Jackson STOEFFLER	27:13	JM11-14	56.22 %	M	16		New PB!	6	
+19	Barbara THOMPSON	28:16	VW35-39	53.54 %	F	3	Lillie parkrunners	PB stays at 00:22:16	28	
+20	Gabriel THOMPSON	28:17	VM35-39	47.55 %	M	17		New PB!	20	
+21	Alison ROTH	28:17	VW35-39	53.74 %	F	4	Century Club	PB stays at 00:24:29	45	
+22	Ashokkumar GANESAN	29:00	VM40-44	48.51 %	M	18	Lillie parkrunners	New PB!	11	
+23	Leonardo SMOTHERS	29:02	JM11-14	52.70 %	M	19		First Timer!	1	
+24	Liam RIDENOUR	29:26	JM11-14	49.26 %	M	20		PB stays at 00:25:51	10	Member of the parkrun 10 Club
+25	Scott REVORD	29:47	VM50-54	50.31 %	M	21	Lillie parkrunners	PB stays at 00:24:25	56	Member of the parkrun 50 Club
+26	Ming BIAN	29:48	VM45-49	48.32 %	M	22		First Timer!	2	
+27	Kosei FUJITA	29:49	JM11-14	51.31 %	M	23		First Timer!	1	
+28	Abbie BUHR	29:56	VW35-39	50.11 %	F	5		PB stays at 00:28:52	5	
+29	Kranthi BANDARU	30:25	VM35-39	43.89 %	M	24	Lillie parkrunners	PB stays at 00:29:17	23	
+30	Unknown									
+31	Sarah RICHARDSON	31:37	VW35-39	47.44 %	F	6		PB stays at 00:25:41	22	
+32	Kelly BAUER	31:38	VW35-39	47.58 %	F	7		First Timer!	1	
+33	Nicole RIDENOUR	31:39	VW45-49	50.66 %	F	8		PB stays at 00:29:59	9	
+34	Mithul ASHOKKUMAR	32:19	JM11-14	47.34 %	M	26	Lillie parkrunners	PB stays at 00:29:56	9	
+35	Patrick REGAN	32:21	JM11-14	47.30 %	M	27	Lillie parkrunners	First Timer!	1	
+36	Toby JONES	33:17	JM15-17	41.16 %	M	28		First Timer!	1	
+37	Tricia JONES	33:18	VW50-54	52.95 %	F	9	Lillie parkrunners	PB stays at 00:30:07	33	
+38	Savio POOVATHINGAL	34:42	SM30-34	37.27 %	M	29		PB stays at 00:30:32	26	
+39	Amanda SZOT	34:46	VW40-44	45.25 %	F	10	Lillie parkrunners	PB stays at 00:33:47	37	
+40	Joe LIBIN	34:47	VM45-49	40.78 %	M	30		PB stays at 00:31:20	26	
+41	Nicola NORTON	35:10	VW45-49	46.54 %	F	11	Lillie parkrunners	PB stays at 00:31:27	27	
+42	Unknown									
+43	Jeet SHAH	36:20	SM30-34	35.69 %	M	32		First Timer!	3	
+44	Aldus K. YUN	40:30	JM11-14	36.71 %	M	33		PB stays at 00:24:10	27	Member of the parkrun 10 Club
+45	Alka JHA	40:54	SW30-34	36.43 %	F	12		PB stays at 00:36:43	8	
+46	Jeremy WILLIAMS	42:50	VM45-49	33.11 %	M	34		PB stays at 00:41:30	2	
+47	David BERTCHER	44:03	JM10	38.63 %	M	35		PB stays at 00:33:36	8	
+48	Corey BERTCHER	44:04	VM50-54	33.74 %	M	36		PB stays at 00:29:01	9	
+49	Irene MOKRA	45:56	VW45-49	34.58 %	F	13		PB stays at 00:44:56	5	
+50	Kristine YUN	46:58	VW40-44	33.25 %	F	14		PB stays at 00:34:40	25	
+51	Torsten J. YUN	48:35	JM10	32.49 %	M	37		PB stays at 00:32:39	27	Member of the parkrun 10 Club
+52	Calvin WU	51:43	SM30-34	25.14 %	M	38	Lillie parkrunners	PB stays at 00:22:13	28	
+53	Tom LECHNER	53:13	VM65-69	32.76 %	M	39		New PB!	26	
+54	T. Charles YUN	53:24	VM45-49	26.97 %	M	40		PB stays at 00:27:40	24	

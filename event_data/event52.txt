@@ -1,0 +1,86 @@
+1	Gabe KHAN	17:58	SM25-29	71.89 %	M	1		New PB!	4	
+2	Caleb HESS	20:44	SM20-24	62.22 %	M	2		First Timer!	1	
+3	James JANKOWSKI	20:44	VM50-54	72.27 %	M	3	Ann Arbor Track Club	PB stays at 00:20:38	27	
+4	Richard PEARSON	21:24	VM40-44	64.72 %	M	4	Ann Arbor Track Club	New PB!	8	
+5	Joel DINVERNO	21:31	VM45-49	68.01 %	M	5		First Timer!	1	
+6	Noah DINVERNO	22:05	JM15-17	63.02 %	M	6		First Timer!	1	
+7	Calvin WU	22:10	SM30-34	58.87 %	M	7	Lillie parkrunners	PB stays at 00:21:49	38	
+8	Darren STONE	23:02	VM45-49	63.53 %	M	8		PB stays at 00:22:44	15	
+9	Romulo MEIRA GOES	23:22	SM25-29	55.21 %	M	9		PB stays at 00:20:47	2	
+10	Verity ATKINS	24:00	SW25-29	61.67 %	F	1		First Timer!	72	Member of the parkrun 50 Club
+11	Haley BROWN	24:09	SW30-34	61.28 %	F	2		PB stays at 00:22:16	3	
+12	Reed SWANSON	24:23	VM60-64	65.76 %	M	10	Ann Arbor Track Club	PB stays at 00:24:11	32	
+13	Adam STYRON	24:23	SM18-19	54.68 %	M	11		PB stays at 00:19:25	89	Member of the parkrun 50 Club
+14	Joshua STYRON	24:23	VM45-49	58.58 %	M	12		PB stays at 00:19:01	96	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+15	Andrew PRICE	24:23	SM30-34	53.18 %	M	13	Ann Arbor Track Club	First Timer!	1	
+16	James SCHOLL	25:14	VM65-69	67.11 %	M	14	Brisbane Road Runners	PB stays at 00:24:53	142	Member of the parkrun 100 Club
+17	John POSTIFF	25:47	JM11-14	56.24 %	M	15		PB stays at 00:25:40	8	
+18	Gabriel THOMPSON	27:02	VM35-39	49.75 %	M	16		PB stays at 00:26:51	24	
+19	Alison ROTH	27:07	VW35-39	56.05 %	F	3	Century Club	PB stays at 00:24:29	54	Member of the parkrun 50 Club
+20	Liam RIDENOUR	27:22	JM11-14	52.98 %	M	17		PB stays at 00:25:09	18	Member of the parkrun 10 Club
+21	Scott REVORD	27:25	VM50-54	54.65 %	M	18	Lillie parkrunners	PB stays at 00:24:25	66	Member of the parkrun 50 Club
+22	Unknown									
+23	David POSTIFF	28:31	JM11-14	49.74 %	M	20		PB stays at 00:28:00	5	
+24	Ben QUANTOCK	29:02	SM25-29	44.43 %	M	21		First Timer!	1	
+25	Emma KEER	29:02	SW20-24	50.98 %	F	4	Lillie parkrunners	PB stays at 00:26:38	59	Member of the parkrun 50 ClubMember of the parkrun v25 Club
+26	Adam HOCKLEY	29:04	SM25-29	44.38 %	M	22	Lillie parkrunners	PB stays at 00:19:37	42	Member of the parkrun v25 Club
+27	Ashokkumar GANESAN	29:10	VM40-44	48.23 %	M	23	Lillie parkrunners	PB stays at 00:27:23	19	
+28	Matthew JONES	29:27	VM55-59	52.63 %	M	24		PB stays at 00:27:12	38	
+29	Sara WOODWARD	29:36	VW40-44	51.97 %	F	5		PB stays at 00:28:07	7	
+30	Christopher FAIRCHILD	29:48	SM30-34	44.02 %	M	25		PB stays at 00:24:15	13	
+31	Tricia JONES	30:08	VW50-54	58.52 %	F	6	Lillie parkrunners	PB stays at 00:30:07	43	
+32	Unknown									
+33	Caitlin HULT	30:25	SW25-29	48.66 %	F	7		PB stays at 00:29:37	5	
+34	Kranthi BANDARU	30:35	VM35-39	43.65 %	M	27	Lillie parkrunners	PB stays at 00:29:17	28	Member of the parkrun v25 Club
+35	Nicole RIDENOUR	30:42	VW45-49	52.23 %	F	8		PB stays at 00:29:27	18	
+36	Milaheta DURAKOVIC	30:43	VW45-49	52.74 %	F	9		New PB!	14	
+37	Constantin HRUSCHKA	30:45	VM45-49	47.59 %	M	28		First Timer!	1	
+38	Aidan TRAYNOR	30:46	SW20-24	48.10 %	F	10		First Timer!	1	
+39	Noah CHASSE	30:47	SM20-24	41.91 %	M	29		First Timer!	1	
+40	Perry GILBERT	30:51	VM35-39	42.73 %	M	30		First Timer!	1	
+41	John PASTULA	30:54	VM50-54	48.11 %	M	31		PB stays at 00:29:15	33	
+42	Joy SWANSON	31:01	JW15-17	49.33 %	F	11	Ann Arbor Track Club	PB stays at 00:30:01	24	Member of the parkrun 10 Club
+43	George KASDORF	31:03	VM70-74	56.79 %	M	32	Lillie parkrunners	PB stays at 00:30:38	53	Member of the parkrun 50 Club
+44	Kristian FRIKKE-SCHMIDT	31:08	VM45-49	46.25 %	M	33		PB stays at 00:30:05	44	
+45	Michael CHOATE	31:14	VM35-39	42.48 %	M	34		First Timer!	1	
+46	Cathy CHOW	31:28	SW25-29	47.03 %	F	12		PB stays at 00:31:12	4	
+47	Sarah RICHARDSON	31:58	VW35-39	47.08 %	F	13		PB stays at 00:25:41	29	
+48	Unknown									
+49	Pamela FAIRCHILD	32:33	VW35-39	46.70 %	F	14		PB stays at 00:27:51	8	
+50	Unknown									
+51	Terese BERTCHER	32:57	VW50-54	52.15 %	F	15		PB stays at 00:32:36	11	
+52	Unknown									
+53	Unknown									
+54	Beth VANDUSEN	33:22	VW35-39	44.96 %	F	16		PB stays at 00:32:40	25	
+55	Vivian HEINRICH	34:27	VW55-59	54.77 %	F	17		PB stays at 00:33:39	5	
+56	Corey BERTCHER	34:30	VM50-54	43.43 %	M	39		PB stays at 00:29:01	17	
+57	Mike PHOTENHAUER	34:34	VM55-59	45.23 %	M	40		PB stays at 00:32:28	4	
+58	Amanda PHOTENHAUER	34:35	SW25-29	42.80 %	F	18	Lillie parkrunners	PB stays at 00:26:28	16	
+59	Heather MILLER	34:46	VW40-44	44.58 %	F	19		PB stays at 00:34:07	6	
+60	Amanda SZOT	34:51	VW45-49	45.58 %	F	20	Lillie parkrunners	PB stays at 00:33:47	47	
+61	Nicola NORTON	35:07	VW45-49	47.18 %	F	21	Lillie parkrunners	PB stays at 00:31:27	36	
+62	Kristine YUN	35:35	VW40-44	44.22 %	F	22		PB stays at 00:34:40	30	
+63	Amy N	35:37	VW35-39	42.49 %	F	23		First Timer!	1	
+64	Wesley MARRERO	35:38	SM25-29	36.20 %	M	41		First Timer!	1	
+65	Torsten J. YUN	36:45	JM10	42.95 %	M	42		PB stays at 00:32:39	33	Member of the parkrun 10 Club
+66	Vanessa CLARKE	36:51	VW45-49	44.96 %	F	24		New PB!	4	
+67	Unknown									
+68	Joe LIBIN	37:32	VM45-49	38.06 %	M	44		PB stays at 00:31:20	34	
+69	Matt SMANIA	37:41	SM25-29	34.23 %	M	45		PB stays at 00:36:42	2	
+70	Erica GILBERT	37:58	SW30-34	39.16 %	F	25		First Timer!	1	
+71	Unknown									
+72	Jeremy WILLIAMS	38:42	VM45-49	36.65 %	M	47		PB stays at 00:37:29	7	
+73	Sean MINTY	39:16	VM35-39	34.00 %	M	48		First Timer!	1	
+74	Amy HEMMETER	39:19	SW25-29	37.64 %	F	26		PB stays at 00:36:19	4	
+75	Jacob RICHARDSON	39:39	JM10	41.24 %	M	49		New PB!	3	
+76	Keith RICHARDSON	39:39	VM40-44	34.43 %	M	50		New PB!	3	
+77	Christine STANIK	40:12	VW35-39	37.44 %	F	27		PB stays at 00:36:56	3	
+78	Unknown									
+79	T. Charles YUN	40:50	VM45-49	35.27 %	M	52		PB stays at 00:27:40	30	
+80	Marie HAMLIN	43:17	VW55-59	43.59 %	F	28		New PB!	9	
+81	Emily EISBRUCH	46:14	VW60-64	41.38 %	F	29		PB stays at 00:41:56	25	
+82	Susan BRONSON	49:33	VW45-49	32.69 %	F	30		PB stays at 00:48:57	2	
+83	Tiffany FITZPATRICK	52:56	SW30-34	28.09 %	F	31		PB stays at 00:30:02	15	
+84	Ron LOCHOCKI	52:59	VM55-59	29.51 %	M	53		PB stays at 00:50:20	11	Member of the parkrun v25 Club
+85	Daniel POSTIFF	1:01:28	JM10	25.68 %	M	54		PB stays at 00:59:35	3	
+86	Naomi POSTIFF	1:01:28	VW40-44	25.41 %	F	32		PB stays at 00:59:40	3	
