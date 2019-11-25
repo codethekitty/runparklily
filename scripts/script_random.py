@@ -191,15 +191,29 @@ title('The impressive feats')
 savefig('PB.jpg',dpi=300,bbox_inches='tight')
 
 #%%
-df=data_all[data_all.event>35]
+from pylab import *
+import import_data,pandas
+df = import_data.import_result()
+
+decitime=[]
+for i,n in df.iterrows():
+    tstr=n.time
+    tlist=tstr.split(':')
+    if len(tlist)==3:
+        tt = float(tlist[1])+float(tlist[2])/60+60
+    else:
+        tt = float(tlist[0])+float(tlist[1])/60
+    decitime.append(tt)
+df['decitime']=decitime
+
 allpr = df.parkrunner.value_counts()
-allpr = list(allpr[allpr>3][1:].index)
+allpr = list(allpr[allpr>9].index)
 allcv=[]
 for pr in allpr:
-    ag = df[df.parkrunner.str.find(pr)==0].age_grade
-    ag = array([float(x[:5]) for x in ag])
-    cv = std(ag)/mean(ag)
+    tt = df[df.parkrunner.str.find(pr)==0].decitime
+    cv = std(tt)/mean(tt)
     allcv.append(cv)
 data=pandas.DataFrame({'nom':array(allpr),'cv':array(allcv)})
+print(data.sort_values(by='cv'))
 
 

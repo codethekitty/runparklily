@@ -1,47 +1,49 @@
-#% get date
+import pandas
+from pylab import *
+
+#%% get date
 from datetime import datetime
 
-data = pandas.read_csv('event_data/summary.txt', header = None,sep='\t').iloc[:,:3]
+data = pandas.read_csv('../other_data/summary.txt', header = None,sep='\t').iloc[:,:3]
 data.columns=['event','date','npr']
 data.date = [datetime.strptime(x,'%d/%m/%Y') for x in list(data.date)]
 
 
 #% get weather data
-
-weather = pandas.read_csv('other_data/1925676.csv', header=0,sep=',')
-weather = weather.dropna(axis=1,how='all').iloc[:,:12].drop(columns=list(weather)[3:6])
+weather = pandas.read_csv('../other_data/1956002.csv', header=0,sep=',')
 weather.DATE = [datetime.strptime(x,'%Y-%m-%d') for x in list(weather.DATE)]
-
+weather = weather.loc[:,['DATE','AWND','PRCP','SNOW','SNWD','TMAX','TMIN','TOBS']]
 #%
 m=[]
 for n,d in data.iterrows():
-    w = weather[weather.DATE==d.date].iloc[:,2:].mean()
+    w = weather[weather.DATE==d.date].iloc[:,1:].mean()
     m.append(w.values)
 m=pandas.DataFrame.from_records(m,columns=list(w.index))
 df = pandas.concat([data,m],axis=1)
 
-#%%
+df.iloc[0,3:]=array([2.2,0,0,0,nan,nan,-2.2])
 
+#%%
+colors=rcParams['axes.prop_cycle'].by_key()['color']
 from matplotlib.gridspec import GridSpec
 from scipy.stats import linregress
 
-figure(figsize=(10,10))
-gs=GridSpec(5,2,width_ratios=[2,1])
-var = zip(['TOBS','PRCP','SNOW','AWND'],['Temperature (C)','Precipitation (mm)','Snow fall (mm)','Wind speed (m/s)'])
+figure(figsize=(8,10))
+gs=GridSpec(5,2,width_ratios=(3,1))
+var = zip(['TOBS','PRCP','SNOW','AWND'],['Temperature (C/F)','Precipitation (mm)','Snow fall (mm)','Wind speed (m/s)'])
 subplot(gs[0,0])
-plot(df.date,df.npr,'ko-',ms=4)
+plot(df.date,df.npr,'o-',ms=4,color=colors[0])
 ylabel('Attendance')
-subplot(gs[0,1])
-text(0,0,'Effect of weather on Lillie attendance',fontsize=12,ha='center')
-ylim(-5,5)
-xlim(-5,5)
-axis('off')
+#subplot(gs[0,1])
+#text(0,0,'Effect of weather on Lillie attendance',fontsize=12,ha='center')
+#grid('on')
+
 ss=0
 for v,l in var:
     ss+=1
     
     subplot(gs[ss,0])
-    plot(df.date,df[v],'k-')
+    plot(df.date,df[v],'o-',ms=4,color=colors[ss])
     ylabel(l)
     
     subplot(gs[ss,1])
@@ -53,16 +55,12 @@ for v,l in var:
     xl=linspace(min(X),max(X),2)
     yl=xl*m+b
     plot(xl,yl,'k:')
-    title('r=%.2f, p=%.3f'%(r,p))
-        
-    
-subplot(gs[4,0])
-xlabel('Year-Month')
-subplot(gs[4,1])
-xlabel('Attendance')
+    title('r=%.2f, p=%.4f'%(r,p))
+#    if ss==1:
+#        tc=arange(-10,30,10)
+#        yticks(tc,[str(x)+' / '+str(int(x*9/5+32)) for x in tc])
 tight_layout()
-    
-savefig('temp.jpg',dpi=150,bbox_inches='tight')
+
 
 #%%
 from datetime import timedelta
@@ -95,4 +93,8 @@ for name,col in zip(names,colors[:len(names)]):
 tight_layout()
 
 
-savefig('temp.jpg',dpi=150,bbox_inches='tight')
+#savefig('temp.jpg',dpi=150,bbox_inches='tight')
+
+
+
+
