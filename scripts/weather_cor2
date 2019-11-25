@@ -49,10 +49,11 @@ for v,l in var:
         yticks(tc,[str(x)+' / '+str(int(x*9/5+32)) for x in tc])
 ylim(1,7)
 xlabel('Year-Month')
-
+tight_layout()
+savefig('../temp.jpg',dpi=150,bbox_inches='tight')
 
 #%
-subplot(gs[ss+1])
+figure(figsize=(6,2.5))
 from datetime import timedelta
 import import_data
 
@@ -77,15 +78,13 @@ plot(Dbackup.iloc[i].date,24.8,'x',color='k',ms=7)
 #xl=linspace(min(X),max(X),2)
 #yl=xl*m+b
 #print('r=%.2f, p=%.4f'%(r,p))
-
+title('Josh\'s finish time')
 ylabel('Time (min)')
 
 ylim(18,25)
 xlabel('Year-Month')
 tight_layout()
-
-tight_layout()
-savefig('../temp.jpg',dpi=150,bbox_inches='tight')
+savefig('../temp1.jpg',dpi=150,bbox_inches='tight')
 
 
 
