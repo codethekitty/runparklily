@@ -43,7 +43,6 @@ df.iloc[0,3:-2]=array([2.2,0,0,0,nan,nan,-2.2])
 colors=rcParams['axes.prop_cycle'].by_key()['color']
 from matplotlib.gridspec import GridSpec
 from scipy.stats import linregress
-from matplotlib.gridspec import GridSpec
 
 figure(figsize=(8,4))
 gs=GridSpec(2,1,height_ratios=(2,1))
