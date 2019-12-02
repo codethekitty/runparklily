@@ -35,9 +35,9 @@ def import_result():
                     note=[x for x in ff if (x.find('First')>=0) or (x.find('PB')>=0)][0]
                     agegrade=ff[6][:ff[6].find('%')]+' %'
                     gp=int(ff[4][:ff[4].find('/')])
-                    add={'pos':int(ff[0]),'parkrunner':ff[1],'time':time,'age_cat':ff[5],'age_grade':agegrade,'gender':ff[3],'gender_pos':gp,'note':note,'total_runs':int(ff[2][:ff[2].find(' ')])}
+                    add={'pos':int(ff[0]),'parkrunner':ff[1],'time':time,'age_cat':ff[5],'age_grade':agegrade,'gender':ff[3],'gender_pos':gp,'note':note,'total_runs':int(ff[2][:ff[2].find(' ')]),'misc':ff[2][ff[2].find(' '):]}
                 else:
-                    add={'pos':int(ff[0]),'parkrunner':ff[1],'time':np.nan,'age_cat':np.nan,'age_grade':np.nan,'gender':np.nan,'gender_pos':np.nan,'note':np.nan,'total_runs':np.nan}
+                    add={'pos':int(ff[0]),'parkrunner':ff[1],'time':np.nan,'age_cat':np.nan,'age_grade':np.nan,'gender':np.nan,'gender_pos':np.nan,'note':np.nan,'total_runs':np.nan,'misc':np.nan}
                 data.append(add)
                 i+=1
                 cont = np.sum(np.isin(fll,str(i+1)))
@@ -60,7 +60,27 @@ def import_result():
             data_all=data
         else:
             data_all=pandas.concat([data_all,data],ignore_index=True,sort=True)
-    D = data_all.drop(columns=['misc','club'])
-    D = D.dropna()
+#    D = data_all.drop(columns=['misc','club'])
+    D = data_all
     
     return(D)
+    
+#%% volunteer data
+
+def import_volunteer():
+    f=open('../other_data/volunteer_data.txt','r').read()
+    ll=f.split('\n\n')
+    l = [x.split('\n') for x in ll]
+    V=[]
+    ev=[]
+    for n in l:
+        nt=np.array(n)[~np.isin(n,'')]
+        enum=int(nt[0])
+        s=nt[1]
+        v=[x.strip(' ') for x in s[s.find(':')+1:].split(',')]
+        V.extend(v)
+        ev.extend([enum]*len(v))
+    df=pandas.DataFrame(np.vstack((V,ev)).T,columns=['volunteer','event'])
+    
+    return(df)
+

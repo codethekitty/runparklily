@@ -1,3 +1,7 @@
+from pylab import *
+import import_data,pandas
+df = import_data.import_result()
+
 #%% adam vs steph
         
 #op = data_all[data_all.note.str.find('First Timer!')==0].groupby('event').count().pos
@@ -191,9 +195,6 @@ title('The impressive feats')
 savefig('PB.jpg',dpi=300,bbox_inches='tight')
 
 #%%
-from pylab import *
-import import_data,pandas
-df = import_data.import_result()
 
 decitime=[]
 for i,n in df.iterrows():
@@ -216,4 +217,5 @@ for pr in allpr:
 data=pandas.DataFrame({'nom':array(allpr),'cv':array(allcv)})
 print(data.sort_values(by='cv'))
 
+#%% find lillie v25
 
