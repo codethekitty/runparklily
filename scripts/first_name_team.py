@@ -1,3 +1,7 @@
+from pylab import *
+import import_data,pandas
+Dall = import_data.import_result()
+
 #%% first name stat
 for eseli,esel in enumerate(arange(2,57)):
     D=Dall[Dall.event<esel]
@@ -178,4 +182,4 @@ tick[-1]='40+'
 ax2.set_yticklabels(tick)
 ax2.set_ylabel('PB (min)')
 
-savefig('firstnameteam.png'.format(i=eseli),dpi=100,bbox_inches='tight')
+#savefig('firstnameteam.png'.format(i=eseli),dpi=100,bbox_inches='tight')

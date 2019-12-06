@@ -1,4 +1,6 @@
-
+from pylab import *
+import import_data,pandas
+Dall = import_data.import_result()
 
 #%%
 
@@ -81,4 +83,4 @@ tick[-1]='40+'
 ax2.set_yticklabels(tick)
 ax2.set_ylabel('PB (min)')
 
-savefig('lastnameteam.png',dpi=150,bbox_inches='tight')
+#savefig('lastnameteam.png',dpi=150,bbox_inches='tight')
