@@ -1,17 +1,18 @@
 from pylab import *
-import import_data,pandas
-df = import_data.import_result()
-df2 = import_data.import_volunteer()
+import pandas
+
+df3 = df2[df2.parkrun=='Lillie parkrun, Ann Arbor']
+df4 = df[df.parkrun=='Lillie parkrun, Ann Arbor']
 
 #%% find lillie v
 cc=rcParams['axes.prop_cycle'].by_key()['color']
 
-dfcount=df2.volunteer.value_counts()
+dfcount=df3.volunteer.value_counts()
 dfcount=dfcount[dfcount>0]
 xlab=dfcount.index.values
 y2=[]
 for n in xlab:
-    y2.append(sum(df.parkrunner==n))
+    y2.append(sum(df4.parkrunner==n))
 ix=[array(y2)>3]
 y=dfcount.values[ix]
 x=arange(len(y))

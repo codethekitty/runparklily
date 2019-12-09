@@ -1,26 +1,10 @@
 from datetime import datetime
-datetim
-
-#%% return rate
 from matplotlib.gridspec import GridSpec
 
-data2 = data_all[data_all.parkrunner.str.find('Unknown')<0].parkrunner.value_counts()
+data_all=df[df.parkrun=='Lillie parkrun, Ann Arbor']
+data2 = data_all.parkrunner.value_counts()
 
 parkrunners=list(data2.index)
-data3=[]
-
-figure(figsize=(8,40))
-for n,p in zip(data2,parkrunners):
-    c+=1
-    d=data_all[data_all.parkrunner==p]
-    eventplot(d.event,lineoffsets=-c,linewidths=8,linelengths=1,color='k')
-
-        
-yticks([])
-ylim(-c-1,1)
-xlabel('Event #')
-       
-#%%
 
 L=empty((max(data2),len(parkrunners)))
 L[:]=nan
@@ -52,5 +36,5 @@ initial=[x[0]+' '+x[x.find(' ')+1] for x in parkrunners]
 ax.set_yticks(arange(len(parkrunners))+0.5)
 ax.set_yticklabels(initial[::-1],fontsize=7)
 ax.set_xlabel('Event #')
-savefig('temp.png',dpi=300,bbox_inches='tight')
+#savefig('temp.png',dpi=300,bbox_inches='tight')
 

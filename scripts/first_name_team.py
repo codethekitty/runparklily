@@ -1,6 +1,7 @@
 from pylab import *
-import import_data,pandas
-Dall = import_data.import_result()
+import pandas
+Dall = df[df.parkrun=='Lillie parkrun, Ann Arbor']
+
 
 #%% first name stat
 for eseli,esel in enumerate(arange(2,57)):

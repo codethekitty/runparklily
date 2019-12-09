@@ -1,6 +1,6 @@
 from pylab import *
-import import_data,pandas
-Dall = import_data.import_result()
+import pandas
+Dall = df[df.parkrun=='Lillie parkrun, Ann Arbor']
 
 #%%
 

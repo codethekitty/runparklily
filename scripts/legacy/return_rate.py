@@ -1,5 +1,3 @@
-
-
 #%% return rate
 from matplotlib.gridspec import GridSpec
 
