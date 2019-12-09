@@ -1,7 +1,6 @@
 from pylab import *
 import pandas,os,re
 import time,datetime
-os.chdir(r'C:\Users\calvinwu\Google Drive\transfer folder\parkrun_us')
 
 
 #%%
