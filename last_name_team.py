@@ -1,9 +1,5 @@
-from pylab import *
-import pandas
 Dall = df[df.parkrun=='Lillie parkrun, Ann Arbor']
-
 #%%
-
 D=Dall    
 firstnames = [x.split(' ') for x in D.parkrunner]
 N=[]
@@ -82,5 +78,5 @@ tick[0]='<18'
 tick[-1]='40+'
 ax2.set_yticklabels(tick)
 ax2.set_ylabel('PB (min)')
-
-#savefig('lastnameteam.png',dpi=150,bbox_inches='tight')
+fn = datetime.datetime.now().strftime('%Y_%m_%d')
+savefig('shared/figures/lastnameteam_'+fn+'.png',dpi=300,bbox_inches='tight')

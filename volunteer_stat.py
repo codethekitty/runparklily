@@ -1,10 +1,8 @@
-from pylab import *
-import pandas
 
+#%%
 df3 = df2[df2.parkrun=='Lillie parkrun, Ann Arbor']
 df4 = df[df.parkrun=='Lillie parkrun, Ann Arbor']
 
-#%% find lillie v
 cc=rcParams['axes.prop_cycle'].by_key()['color']
 
 dfcount=df3.volunteer.value_counts()
@@ -42,4 +40,5 @@ for n,xp,right,left in zip(xlab,-x,y,-array(y2)):
 text(-30,2.5,'# Runs',ha='center',fontsize=11,color=cc[1],fontweight='bold')
 text(25,2.5,'# Volunteering',ha='center',fontsize=11,color=cc[4],fontweight='bold')
 ax.xaxis.set_ticks_position('top')
-#savefig('../../volunteer_rank.png',dpi=150,bbox_inches='tight')
+fn = datetime.datetime.now().strftime('%Y_%m_%d')
+savefig('shared/figures/volunteer_stat_'+fn+'.png',dpi=300,bbox_inches='tight')
