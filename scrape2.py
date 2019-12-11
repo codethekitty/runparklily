@@ -36,7 +36,7 @@ for j,r in df3.iterrows():
         if len(i)>0:
             vdata.append([x.text for x in i])
     V={'barcode':r.barcode,'volunteer':r.volunteer,'data':vdata,'last_updated':datetime.datetime.now()}
-    save(os.path.join('volunteer_data','a'+r.barcode+'.npy'),V)
+    save(os.path.join('shared\\data\\raw_data\\volunteer_data','a'+r.barcode+'.npy'),V)
     print(j,len(df3),r.volunteer)
     time.sleep(random(1)[0]*5+2)
     

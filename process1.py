@@ -4,13 +4,24 @@ import time,datetime
 
 
 #%%
-folder_list = os.listdir('raw_data')
+sdir='shared/data/raw_data/run_data'
+folder_list = os.listdir(sdir)
+
+def remove_file(folder_list):
+    ignore_files = ['desktop.ini']
+    w=where(isin(folder_list,ignore_files))[0]
+    if len(w)>0:
+        folder_list.pop(w[0])
+    return folder_list
+
+folder_list=remove_file(folder_list)
+
 P=[]
 V=[]
 for f in folder_list:
-    for ev in os.listdir(os.path.join('raw_data',f)):
+    for ev in remove_file(os.listdir(os.path.join(sdir,f))):
         ev_number = int(ev[5:-4])
-        L=load(os.path.join('raw_data',f,ev),allow_pickle=True).item()
+        L=load(os.path.join(sdir,f,ev),allow_pickle=True).item()
         
         for v in L['volunteers']:
             V.append({'volunteer':v[0],'barcode':v[1],'parkrun':f,'event':ev_number})

@@ -67,10 +67,9 @@ ax.xaxis.set_label_position('top')
 ax.spines['bottom'].set_visible(False)
 ax.spines['right'].set_visible(False)
 
-
 cmap=matplotlib.cm.get_cmap('viridis')
 colors=cmap(arange(40-18))
-ax2 = fig.add_axes([0.85, 0.55, 0.1, 0.2])
+ax2 = fig.add_axes([0.80, 0.55, 0.1, 0.2])
 ax2.imshow(repmat(arange(18,40,0.1),10,1).T)
 ax2.set_xticks([])
 ax2.set_yticks(arange(0,240,20))
@@ -79,8 +78,15 @@ tick[0]='<18'
 tick[-1]='40+'
 ax2.set_yticklabels(tick)
 ax2.set_ylabel('PB (min)')
-fn = datetime.datetime.now().strftime('%Y_%m_%d')
-savefig('shared/figures/firstnameteam_'+fn+'.png',dpi=300,bbox_inches='tight')
+
+fn = datetime.datetime.now().strftime('%Y.%m.%d')
+tt='(updated %s)'%(fn)
+title(tt,fontweight='normal',fontsize=10,loc='left')
+
+savefig('shared/figures/firstname_team.png',dpi=300,bbox_inches='tight')
+
+
+
 
 
 #%% first name stat animation

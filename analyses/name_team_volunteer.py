@@ -1,8 +1,11 @@
 Dall = df[df.parkrun=='Lillie parkrun, Ann Arbor']
 Dvol = df2[df2.parkrun=='Lillie parkrun, Ann Arbor']
+from matplotlib import gridspec
 
 #%% first name team
+gs = gridspec.GridSpec(2,1,height_ratios=(1,2))
 
+figure(figsize=(16,8))
 
 firstnames = [x.split(' ') for x in Dvol.volunteer]
 N=[]
@@ -31,7 +34,7 @@ stat=stat[(stat.total_runs/stat['count'])>1].reset_index().drop(columns='index')
 import matplotlib.patches as patches
 cc=rcParams['axes.prop_cycle'].by_key()['color']
 
-fig, ax = subplots(figsize=(16,3))
+ax = subplot(gs[0])
 xt=[]
 for i,j in stat.iterrows():
     v=0
@@ -51,13 +54,11 @@ ax.xaxis.set_ticks_position('top')
 ax.xaxis.set_label_position('top') 
 ax.spines['bottom'].set_visible(False)
 ax.spines['right'].set_visible(False)
+ylabel('(by first name)')
 
-
-fn = datetime.datetime.now().strftime('%Y_%m_%d')
-savefig('shared/figures/firstnameteam_volunteer_'+fn+'.png',dpi=300,bbox_inches='tight')
-
-#%% last name team
-
+fn = datetime.datetime.now().strftime('%Y.%m.%d')
+tt='(updated %s)'%(fn)
+title(tt,fontweight='normal',fontsize=10,loc='right')
 
 firstnames = [x.split(' ') for x in Dvol.volunteer]
 N=[]
@@ -84,7 +85,7 @@ import matplotlib.patches as patches
 cc=rcParams['axes.prop_cycle'].by_key()['color']
 cc+=cc
 
-fig, ax = subplots(figsize=(16,5))
+ax=subplot(gs[1])
 xt=[]
 for i,j in stat.iterrows():
     v=0
@@ -106,7 +107,8 @@ ax.xaxis.set_ticks_position('top')
 ax.xaxis.set_label_position('top') 
 ax.spines['bottom'].set_visible(False)
 ax.spines['right'].set_visible(False)
+ylabel('(by last name)')
 
+tight_layout()
 
-fn = datetime.datetime.now().strftime('%Y_%m_%d')
-savefig('shared/figures/lastnameteam_volunteer_'+fn+'.png',dpi=300,bbox_inches='tight')
+savefig('shared/figures/name_team_volunteer.png',dpi=300,bbox_inches='tight')

@@ -1,5 +1,4 @@
-#%%
-scott_data = df[(df.parkrunner=='Scott REVORD')&(df.parkrun=='Lillie parkrun, Ann Arbor')]
+
 #%%
 parkrunlist = list(df.parkrun.unique())
 result=[]
@@ -38,8 +37,8 @@ for p in parkrunlist:
                 print(p,leader,most_conseq)
 
 scott=pandas.DataFrame.from_dict(result)
-#%%
 
+#%%
 for i,p in enumerate(scott.parkrun.unique()):
     pp=scott[scott.parkrun==p].most_conseq.max()
     pp2=scott[(scott.parkrun==p) & (scott.most_conseq==pp)]
@@ -65,10 +64,14 @@ yticks(arange(-i,1,1),[x[:x.find('parkrun')-1] for x in scott2.parkrun[::-1]])
 ylim(-i-1,1)
 xlim(0,440)
 xlabel('Event #')
-title('Most consecutive parkrunner')
+title('Most consecutive runner at each parkrun')
 
-fn = datetime.datetime.now().strftime('%Y_%m_%d')
-savefig('shared/figures/scott_leads1_'+fn+'.png',dpi=300,bbox_inches='tight')
+fn = datetime.datetime.now().strftime('%Y.%m.%d')
+tt='(updated %s)'%(fn)
+title(tt,fontweight='normal',fontsize=10,loc='right')
+
+
+savefig('shared/figures/consecutive_run1.png',dpi=300,bbox_inches='tight')
 
 
 #%%
@@ -78,8 +81,11 @@ cc=rcParams['axes.prop_cycle'].by_key()['color']
 cc=cc*5
 
 figure(figsize=(14,7))
-subplot(211)
-scott2 = pp3.sort_values(by='most_conseq',ascending=False).reset_index()
+
+gs=gridspec.GridSpec(2,1,height_ratios=(5,3))
+
+subplot(gs[0])
+scott2 = scott.sort_values(by='most_conseq',ascending=False).reset_index()
 i=0
 t=[]
 for j,r in scott2.iterrows():
@@ -92,17 +98,25 @@ for j,r in scott2.iterrows():
             fw='bold'
         else:
             fw='normal'
-        text(r.current+2,-i,'%s (%d)'%(r.leader,r.most_conseq),color=cc[i],ha='left',va='center',fontweight=fw)
+        if r.current<75:
+            xpos=r.current+2
+        else:
+            xpos=75
+        text(xpos,-i,'%s (%d)'%(r.leader,r.most_conseq),color=cc[i],ha='left',va='center',fontweight=fw)
         i+=1
         t.append(r.parkrun[:r.parkrun.find('parkrun')-1])
 yticks(arange(-i+1,1,1),t[::-1])
 ylim(-i,1)
 xlim(0,100)
 xlabel('Event #')
-title('Most consecutive parkrunner since event #1')
+title('Most consecutive runner since event #1')
 
-subplot(212)
-scott2 = pp3.sort_values(by='most_conseq',ascending=False).reset_index()
+fn = datetime.datetime.now().strftime('%Y.%m.%d')
+tt='(updated %s)'%(fn)
+title(tt,fontweight='normal',fontsize=10,loc='right')
+
+subplot(gs[1])
+scott2 = scott.sort_values(by='most_conseq',ascending=False).reset_index()
 i=0
 t=[]
 for j,r in scott2.iterrows():
@@ -119,15 +133,15 @@ for j,r in scott2.iterrows():
         t.append(r.parkrun[:r.parkrun.find('parkrun')-1])
 yticks(arange(-i+1,1,1),t[::-1])
 ylim(-i,1)
-xlim(0,200)
+xlim(0,190)
 xlabel('Event #')
-title('Most consecutive parkrunner still in progress')
+title('Most consecutive runner still in progress')
       
 tight_layout()
       
-      
-fn = datetime.datetime.now().strftime('%Y_%m_%d')
-savefig('shared/figures/scott_leads2_'+fn+'.png',dpi=300,bbox_inches='tight')
+
+savefig('shared/figures/consecutive_run2.png',dpi=300,bbox_inches='tight')
+
 
 
 
