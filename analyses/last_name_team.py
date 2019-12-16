@@ -1,5 +1,5 @@
-Dall = df[df.parkrun=='Lillie parkrun, Ann Arbor']
 #%%
+Dall = df[df.parkrun=='Lillie parkrun, Ann Arbor']
 D=Dall    
 firstnames = [x.split(' ') for x in D.parkrunner]
 N=[]
