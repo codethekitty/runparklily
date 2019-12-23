@@ -133,7 +133,7 @@ for j,r in scott2.iterrows():
         t.append(r.parkrun[:r.parkrun.find('parkrun')-1])
 yticks(arange(-i+1,1,1),t[::-1])
 ylim(-i,1)
-xlim(0,220)
+xlim(0,250)
 xlabel('Event #')
 title('Most consecutive runner still in progress')
       

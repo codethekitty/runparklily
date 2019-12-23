@@ -1,6 +1,6 @@
 Dall = df[df.parkrun=='Lillie parkrun, Ann Arbor']
 
-#%% complete up to date (png)
+#% complete up to date (png)
 
 D=Dall    
 firstnames = [x.split(' ') for x in D.parkrunner]
