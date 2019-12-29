@@ -30,11 +30,16 @@ for dtheta in linspace(theta,pi/4,5):
     text(lx+5,ly,str(s),color='w')
     text(ly,lx+5,str(s),color='w')
     s-=1
+    
+ss=r'$y=\frac{6-n}{6}x$'
+title(ss)
 
 xlim(min(x),max(x))
 ylim(min(x),max(x))
 xlabel('Finish time (min)')
 ylabel('Finish time (min)')  
+
+savefig('Downloads/f3.png',dpi=100)
     
     
 #%% simulation 1v1
@@ -96,7 +101,7 @@ def loc_meet(tfast,tslow):
     return(array(meet))
 
 
-#%% past results
+#%% polar plots
 
 from itertools import combinations
 from matplotlib import gridspec
@@ -105,11 +110,11 @@ folder=r'C:\Users\calvinwu\Google Drive\transfer folder\parkrun_us\shared\data\r
 folder='/Users/catbox/Google Drive/transfer folder/parkrun_us/shared/data/raw_data/run_data/Lillie parkrun, Ann Arbor'
 pp=glob.glob(os.path.join(folder,'*.npy'))
 
-figure(figsize=(12,8))
-gs=gridspec.GridSpec(2,3)
+figure(figsize=(6,6))
+gs=gridspec.GridSpec(2,2)
 cc=rcParams['axes.prop_cycle'].by_key()['color']
 
-for sp,ev in zip(range(4),(14,15,57)[::1]):
+for sp,ev in zip(range(4),(14,57)):
     if sp>-1:
         events = array([int(os.path.basename(x)[5:-4]) for x in pp])==ev
         data=load(array(pp)[events][0],allow_pickle='True').item()
@@ -149,7 +154,7 @@ for sp,ev in zip(range(4),(14,15,57)[::1]):
             text(0,r,str(r-1))
         xticks([])
         yticks([])
-        title('Event %d (%s): %d runners'%(data['event_number'],data['event_date'],len(t)),fontsize=10)   
+        title('Event %d: %d runners'%(data['event_number'],len(t)),fontsize=10)   
     ax=gca()
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
@@ -157,11 +162,15 @@ for sp,ev in zip(range(4),(14,15,57)[::1]):
     ax.spines['left'].set_visible(False)
 tlist=t
 
+
+savefig('Downloads/f2.png',dpi=150,bbox_inches='tight')
+
+
 #%%
 from numpy import matlib
 tlist=sorted(tlist,reverse=True)
 
-figure(figsize=(12.5,2))
+figure(figsize=(10,2))
 X=[]
 Y=[]
 
@@ -178,7 +187,27 @@ for c,T in enumerate(tlist):
         tt=t_set[:len(theta)]
     X.extend(tt)
     Y.extend(theta)
+    
 
+    if c==0:
+        plot(tt,theta,'o',color=cc[c],ms=1)
+        text(T/6*5.8,1.05,'Rajiv',color=cc[c])
+    elif c==len(tlist)-1:
+        plot(tt,theta,'o',color=cc[1],ms=1)
+        text(T/6*5.8,1.05,'Jordan',color=cc[1])
+    elif c==argmin(abs(array(tlist)-37.7)):
+        plot(tt,theta,'o',color=cc[2],ms=1)
+        text(T/6*5.8,1.05,'Alison',color=cc[2])
+ax=gca()
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+xlabel('Time (min)')
+ylabel('Location (% lap)')
+yticks(arange(0,1,0.2),[int(x) for x in arange(0,1,0.2)*100])
+
+savefig('Downloads/f3.png',dpi=150,bbox_inches='tight')
+
+figure(figsize=(12.5,2))
 xbin=unique(t_set)
 ybin=unique(theta)
 H,xedge,yedge=histogram2d(X,Y,bins=(xbin,ybin))
@@ -191,10 +220,16 @@ title(str(len(t))+' runners\n(simulation based on transplanted #57 to the north 
 colorbar()
 clim(0,5)
 
+savefig('Downloads/f4.png',dpi=150,bbox_inches='tight')
+
+
 
 #%%
 D=[]
-for ev in pp:
+ct=0
+figure(figsize=(10,3))
+gs=GridSpec(1,3)
+for ii,ev in enumerate(pp):
     data=load(ev,allow_pickle='True').item()
     
     t=[]
@@ -230,10 +265,33 @@ for ev in pp:
     wx,wy=where(H>5)
     widx=where(xbin>3)[0]
     congest = sum(wx>min(widx))
+    
+    
+    if isin(ii,(39,40,7)):
+        subplot(gs[ct])
+        for xx,yy in zip(wx,wy):
+            plot(xedge[xx],yedge[yy],'rs',markersize=2)
+        ss=ev[ev.find('event'):-4]
+        rr=len(tlist)
+        title('%s: %d runners'%(ss,rr))
+        ct+=1
+        xlim(0,max(tlist))
+        ylim(0,1)
+        yticks((.25,0.5,.75),['25','50','75'])
+        ylabel('Location (% lap)')
+        xlabel('Time (min)')
+        text(25,0.1,'congestion: %d'%(congest))
+            
+    
     D.append([len(tlist),congest])
-    print(ev)
+    # print(ev)
+tight_layout() 
+
+savefig('Downloads/f5.png',dpi=150,bbox_inches='tight')
+
+    
 #%%
-figure(figsize=(8,3))
+figure(figsize=(10,3))
 D2=array(D)
 D2=D2[argsort(D2[:,0]),:]
 plot(D2[:,0],D2[:,1],'ko')
@@ -250,8 +308,10 @@ plot(xnew, func(xnew, *popt),'r',lw=2)
 
 thry=max(D2[D2[:,0]<40,1])
 thrx=xnew[argmin(abs(func(xnew, *popt)-thry))]
-xlim(0,100)
+xlim(20,100)
 ylim(0,205)
 plot([0,thrx],[thry,thry],'r:')
 plot([thrx,thrx],[0,205],'r:')
 text(thrx,100,'threshold: %d'%(thrx),ha='right',va='center')
+
+savefig('Downloads/f6.png',dpi=150,bbox_inches='tight')
