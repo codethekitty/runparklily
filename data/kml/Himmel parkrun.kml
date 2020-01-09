@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Himmel parkrun</name>
+    <description/>
+    <Style id="line-0288D1-5069-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.069</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-5069-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.6035</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5069-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5069-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5069-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>course</name>
+        <styleUrl>#line-0288D1-5069-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -110.932019,32.233992,0
+            -110.934531,32.233976,0
+            -110.934604,32.233738,0
+            -110.935023,32.233738,0
+            -110.935121,32.233743,0
+            -110.935215,32.233676,0
+            -110.935232,32.233584,0
+            -110.935254,32.232463,0
+            -110.935162,32.232404,0
+            -110.934385,32.232513,0
+            -110.933956,32.232513,0
+            -110.931375,32.232545,0
+            -110.931204,32.232699,0
+            -110.931209,32.234832,0
+            -110.931309,32.234907,0
+            -110.931579,32.234901,0
+            -110.931753,32.234902,0
+            -110.931783,32.234746,0
+            -110.931783,32.234373,0
+            -110.932019,32.233992,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,5 +1,5 @@
 from matplotlib import gridspec
-#%%
+#%
 parkrunlist = list(df.parkrun.unique())
 result=[]
 for p in parkrunlist:
@@ -80,9 +80,9 @@ savefig('shared/figures/consecutive_run1.png',dpi=300,bbox_inches='tight')
 cc=rcParams['axes.prop_cycle'].by_key()['color']
 cc=cc*5
 
-figure(figsize=(14,7))
+figure(figsize=(14,8))
 
-gs=gridspec.GridSpec(2,1,height_ratios=(5,3))
+gs=gridspec.GridSpec(2,1,height_ratios=(5,4))
 
 subplot(gs[0])
 scott2 = scott.sort_values(by='most_conseq',ascending=False).reset_index()
@@ -120,7 +120,7 @@ scott2 = scott.sort_values(by='most_conseq',ascending=False).reset_index()
 i=0
 t=[]
 for j,r in scott2.iterrows():
-    if (r.events[-1]==r.current):
+    if (max(r.events)==r.current)&(len(r.events)>2):
         eventplot(r.events[:-1],lineoffsets=-i,color=cc[i],linelengths=0.45,linewidth=7)
         plot(2*[r.current],array([-0.5,0.5])-i,'-',color=cc[i],lw=1)
         plot([0,r.current],[-i,-i],'-',color=cc[i],lw=1)

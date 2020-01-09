@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Rec Plex North parkrun</name>
+    <description/>
+    <Style id="icon-1899-FFEA00-nodesc-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-nodesc-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5263-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Course</name>
+        <styleUrl>#line-0288D1-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -87.212426,30.546106,0
+            -87.211718,30.544277,0
+            -87.211288,30.544036,0
+            -87.211696,30.543038,0
+            -87.211396,30.542392,0
+            -87.210001,30.542188,0
+            -87.208048,30.542798,0
+            -87.207812,30.544314,0
+            -87.207512,30.546032,0
+            -87.209057,30.5457,0
+            -87.210816,30.544997,0
+            -87.211267,30.543962,0
+            -87.211739,30.54302,0
+            -87.211288,30.542318,0
+            -87.209829,30.542133,0
+            -87.208199,30.542761,0
+            -87.208027,30.543168,0
+            -87.207834,30.544184,0
+            -87.20571,30.544073,0
+            -87.202899,30.544092,0
+            -87.201246,30.542891,0
+            -87.19968,30.542502,0
+            -87.2038,30.545847,0
+            -87.205259,30.545884,0
+            -87.206031,30.546143,0
+            -87.207533,30.546032,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Start/Finish</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -87.212426,30.546106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

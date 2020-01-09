@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Durham NC parkrun</name>
+    <description/>
+    <Style id="icon-157-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-157-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-157-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-157-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-157-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0000FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Start / Finish</name>
+        <styleUrl>#icon-157-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -78.926425,35.955881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Course</name>
+        <styleUrl>#line-0000FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -78.92646,35.95613,0
+            -78.92633,35.95603,0
+            -78.92628,35.95594,0
+            -78.92618,35.95576,0
+            -78.92609,35.95566,0
+            -78.9257,35.95542,0
+            -78.92539,35.95518,0
+            -78.92527,35.95509,0
+            -78.92516,35.95497,0
+            -78.92514,35.95492,0
+            -78.92509,35.9547,0
+            -78.92507,35.95391,0
+            -78.92494,35.95376,0
+            -78.92491,35.95372,0
+            -78.92488,35.95351,0
+            -78.92492,35.95344,0
+            -78.92506,35.95331,0
+            -78.92508,35.95327,0
+            -78.9251,35.95311,0
+            -78.92512,35.95308,0
+            -78.92524,35.953,0
+            -78.92637,35.95225,0
+            -78.92645,35.95215,0
+            -78.9268,35.9519,0
+            -78.926882,35.951867,0
+            -78.92698,35.95186,0
+            -78.92734,35.95193,0
+            -78.92747,35.95189,0
+            -78.92772,35.95158,0
+            -78.92778,35.95122,0
+            -78.9295,35.94841,0
+            -78.92983,35.94807,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Northside Beltline parkrun</name>
+    <description/>
+    <Style id="icon-1899-FFEA00-nodesc-normal">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFEA00-nodesc-highlight">
+      <IconStyle>
+        <color>ff00eaff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFEA00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFEA00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5263-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Course</name>
+        <styleUrl>#line-0288D1-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -84.400581,33.8063742,0
+            -84.400881,33.806631,0
+            -84.401198,33.8068422,0
+            -84.401278,33.8072662,0
+            -84.401579,33.8074712,0
+            -84.40204,33.8073732,0
+            -84.402823,33.8087732,0
+            -84.40277,33.8089422,0
+            -84.403284,33.8098242,0
+            -84.403231,33.8102522,0
+            -84.402684,33.8104222,0
+            -84.402448,33.8107252,0
+            -84.401514,33.810794,0
+            -84.4013,33.8109832,0
+            -84.40234,33.8116072,0
+            -84.402431,33.811955,0
+            -84.402136,33.8123002,0
+            -84.402066,33.8126302,0
+            -84.401986,33.812726,0
+            -84.402131,33.812895,0
+            -84.403086,33.8129152,0
+            -84.403488,33.8131922,0
+            -84.403912,33.813181,0
+            -84.404454,33.8134812,0
+            -84.405038,33.8133612,0
+            -84.406454,33.8134552,0
+            -84.4053215,33.8133783,0
+            -84.405038,33.8133612,0
+            -84.4046027,33.8134407,0
+            -84.404454,33.8134812,0
+            -84.4042808,33.8133961,0
+            -84.403912,33.8131832,0
+            -84.403488,33.8131922,0
+            -84.4033715,33.8131132,0
+            -84.403173,33.8129794,0
+            -84.403086,33.812913,0
+            -84.4028189,33.8129103,0
+            -84.402131,33.812895,0
+            -84.401986,33.8127282,0
+            -84.401721,33.8128252,0
+            -84.401045,33.812894,0
+            -84.40038,33.8132262,0
+            -84.399618,33.8129762,0
+            -84.397826,33.8129232,0
+            -84.39758,33.8131552,0
+            -84.397751,33.8155972,0
+            -84.397955,33.8161052,0
+            -84.399318,33.8159632,0
+            -84.400788,33.8160872,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Start / Finish</name>
+        <styleUrl>#icon-1899-FFEA00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -84.406454,33.813453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

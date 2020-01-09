@@ -1,4 +1,3 @@
-
 #%% passionistas
 passionistas=[]
 for pr in df.parkrun.unique():

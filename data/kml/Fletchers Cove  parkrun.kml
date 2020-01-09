@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Fletchers Cove  parkrun</name>
+    <description/>
+    <Style id="icon-503-F4EB37-nodesc-normal">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-F4EB37-nodesc-highlight">
+      <IconStyle>
+        <color>ff37ebf4</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-F4EB37-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-F4EB37-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-F4EB37-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-4875-nodesc-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-4186F0-4875-nodesc-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-4186F0-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name><![CDATA[Fletcher's Cove parkrun]]></name>
+      <Placemark>
+        <name>Course</name>
+        <styleUrl>#line-4186F0-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.101895,38.919758,0
+            -77.102796,38.920843,0
+            -77.10483,38.922646,0
+            -77.108724,38.925496,0
+            -77.110054,38.926731,0
+            -77.112286,38.93012,0
+            -77.11396,38.932891,0
+            -77.11499,38.934243,0
+            -77.115912,38.935294,0
+            -77.117007,38.936196,0
+            -77.118187,38.937197,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Start / Finish</name>
+        <styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -77.101895,38.919758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

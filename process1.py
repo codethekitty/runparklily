@@ -54,4 +54,3 @@ fn = datetime.datetime.now().strftime('%Y_%m_%d')
 df.to_csv('shared/run_data_'+fn+'.csv',index=False)
 df2.to_csv('shared/volunteer_data_'+fn+'.csv',index=False)
 
-#%%
