@@ -57,9 +57,9 @@ coor=vstack((m[:,0]-o[0],m[:,1]-o[1])).T
 plot(coor[:,0],coor[:,1],lw=3,c=cc[1])
 plot(0,0,'*',ms=14,c=cc[4])
 
-# xlim(array((min(coor[:,0]),max(coor[:,0])))*2-0.003)
-# yl=array((min(coor[:,1]),max(coor[:,1])))
-# ylim(yl*1.05)
+xlim(array((min(coor[:,0]),max(coor[:,0])))*2-0.003)
+yl=array((min(coor[:,1]),max(coor[:,1])))
+ylim(yl*1.05)
 xticks([])
 yticks([])  
 ax=gca()
@@ -68,7 +68,7 @@ ax.spines['right'].set_visible(False)
 ax.spines['bottom'].set_visible(False)
 ax.spines['left'].set_visible(False)     
 
-# savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p2.png',dpi=150,bbox_inches='tight')
+savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p2.png',dpi=150,bbox_inches='tight')
 
 #%%
 folder = 'runparklily\\data\\kml'
@@ -130,49 +130,67 @@ ax.spines['bottom'].set_visible(False)
 ax.spines['left'].set_visible(False)    
 plot(0,0,'*',ms=10,c='k')
  
-# savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p3.png',dpi=150,bbox_inches='tight')
-
+savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p3.png',dpi=150,bbox_inches='tight')
+save(r'C:\Users\calvinwu\Google Drive\transfer folder\gps_coor.npy',gps)
 
 #%% summary
 summary = 'runparklily\\data\\courses.csv'
 df=pandas.read_csv(summary)
 from matplotlib import gridspec
-gs=gridspec.GridSpec(1,2)
-figure(figsize=[8,2.5],dpi=150)
 
-for s in (0,1):
-    if s==0:
-        X,Y=df['loop'],df['out and back']
-    else:
-        X,Y=df['loop rep'],df['out and back rep']
-    subplot(gs[s])
-    h,xedge,yedge=histogram2d(X,Y,bins=(max(X)+1,max(Y)+1))
-    x,y = meshgrid(arange(max(X)+1),arange(max(Y)+1))
-    z=zeros(len(x.ravel()))
-    c=0
-    for i,j in zip(x.ravel(),y.ravel()):
-        z[c]=h[i,j]
-        c+=1
-    scatter(x.ravel(),y.ravel(),s=z*30,c=z,cmap='viridis_r')
-    xlim(min(X)-0.5,max(X)+0.5)
-    ylim(min(Y)-0.5,max(Y)+0.5)
-    colorbar(ticks=arange(0,18,2))
-    
-    if s==1:
-        text(4,1,'Lillie',fontsize=8,rotation=45)
-        text(6,0,'Lillie w',fontsize=8,rotation=45)
-        text(1,1,'Livonia',fontsize=8,rotation=45)
-        text(2,5,'Livonia w',fontsize=8,rotation=45,ha='right',va='top')
-        ylabel('out and back')
-        xlabel('loops')
-    else:
-        text(2,1,'Lillie',fontsize=8,rotation=45)
-        text(1,1,'Livonia',fontsize=8,rotation=45)
-        ylabel('lines')
-        xlabel('circles')
+figure(figsize=[18,8])
+rcParams.update({'font.size': 16})
 
+gs=gridspec.GridSpec(1,2,width_ratios=(1,2))
+subplot(gs[1])
+X,Y=df['loop rep'],df['out and back rep']
+h,xedge,yedge=histogram2d(X,Y,bins=(max(X)+1,max(Y)+1))
+x,y = meshgrid(arange(max(X)+1),arange(max(Y)+1))
+z=zeros(len(x.ravel()))
+pcolormesh(h.T,cmap='Oranges')
+for i,j in zip(x.ravel(),y.ravel()):
+    k=h[i,j]
+    if k>0:
+        s=df[(X==i)&(Y==j)]
+        for m in range(int(k)):
+            lab=s.iloc[m,0].replace('parkrun','').rstrip()
+            if k>8:
+                cc='w'
+            else:
+                cc='k'
+            text(i+0.03,j+(m+0.5)/(k+1),lab,fontsize=10-k/3,color=cc)
 
-# savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p4.png',dpi=150,bbox_inches='tight')
+xticks(arange(0,max(X)+1)+0.5,arange(0,max(X)+1))
+yticks(arange(0,max(Y)+1)+0.5,arange(0,max(Y)+1))
+xlabel('N loops')
+ylabel('N out-and-back')
+title('by route')
+
+subplot(gs[0])
+X,Y=df['loop'],df['out and back']
+h,xedge,yedge=histogram2d(X,Y,bins=(max(X)+1,max(Y)+1))
+x,y = meshgrid(arange(max(X)+1),arange(max(Y)+1))
+z=zeros(len(x.ravel()))
+pcolormesh(h.T,cmap='Oranges')
+for i,j in zip(x.ravel(),y.ravel()):
+    k=h[i,j]
+    if k>0:
+        s=df[(X==i)&(Y==j)]
+        for m in range(int(k)):
+            lab=s.iloc[m,0].replace('parkrun','').rstrip()
+            if k>8:
+                cc='w'
+            else:
+                cc='k'
+            text(i+0.03,j+(m+0.5)/(k+1),lab,fontsize=10-k/3,color=cc)
+xticks(arange(0,max(X)+1)+0.5,arange(0,max(X)+1))
+yticks(arange(0,max(Y)+1)+0.5,arange(0,max(Y)+1))
+xlabel('Circles')
+ylabel('Lines')
+title('by shape')
+
+tight_layout()
+savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p4.png',dpi=150,bbox_inches='tight')
 
 #%%
 
@@ -191,5 +209,5 @@ ax.spines['right'].set_visible(False)
 ax.spines['bottom'].set_visible(False)
 ax.spines['left'].set_visible(False)     
 
-savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p2.png',dpi=150,bbox_inches='tight')
+savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p5.png',dpi=150,bbox_inches='tight')
 
