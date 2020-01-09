@@ -130,8 +130,9 @@ ax.spines['bottom'].set_visible(False)
 ax.spines['left'].set_visible(False)    
 plot(0,0,'*',ms=10,c='k')
  
-savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p3.png',dpi=150,bbox_inches='tight')
-save(r'C:\Users\calvinwu\Google Drive\transfer folder\gps_coor.npy',gps)
+# savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p3.png',dpi=150,bbox_inches='tight')
+
+# save(r'C:\Users\calvinwu\Google Drive\transfer folder\parkrun_us\runparklily\data\gps_coor.npy',gps)
 
 #%% summary
 summary = 'runparklily\\data\\courses.csv'
