@@ -9,11 +9,19 @@ for pr in df.parkrun.unique():
     else:
         crit=5
     parkrunner_list = parkrunner_list[parkrunner_list>crit]
+    count=0
     for p,i in parkrunner_list.items():
         check = sum(otherparkrun.parkrunner==p)
         if not bool(check):
-            passionistas.append({'parkrun':pr,'runner':p,'count':i})
-            print(pr,p,i)
+            tprs = thisparkrun[thisparkrun.parkrunner==p].nprs.values
+            tprs = max([int(x[:x.find('parkrun')-1]) for x in tprs])
+            iprs = sum(thisparkrun.parkrunner==p)
+            if iprs==tprs:
+                passionistas.append({'parkrun':pr,'runner':p,'count':i})
+                print(pr,p,i)
+                count+=1
+                if count>10:
+                    break
 
 #%% get top 3
 P=pandas.DataFrame.from_dict(passionistas)

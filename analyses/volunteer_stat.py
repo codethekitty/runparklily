@@ -38,7 +38,7 @@ for n,xp,right,left in zip(xlab,-x,y,-array(y2)):
 text(-30,2.5,'# Runs',ha='center',fontsize=11,color=cc[1],fontweight='bold')
 text(25,2.5,'# Volunteering',ha='center',fontsize=11,color=cc[4],fontweight='bold')
 ax.xaxis.set_ticks_position('top')
-fn = datetime.datetime.now().strftime('%Y_%m_%d')
+fn = datetime.datetime.now().strftime('%Y.%m.%d')
 tt='(updated %s)'%(fn)
 title(tt,fontweight='normal',fontsize=10,loc='right')
 

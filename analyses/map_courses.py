@@ -5,7 +5,7 @@ import os,glob,pandas
 cc=rcParams['axes.prop_cycle'].by_key()['color']
 
 folder = 'runparklily\\data\\kml'
-ff = glob.glob(os.path.join(folder,'Lillie*'))[0]
+ff = glob.glob('runparklily/data/kml/Lillie*')[0]
 f=open(ff)
 s=f.read()
 f.close()
@@ -35,10 +35,10 @@ ax.spines['right'].set_visible(False)
 ax.spines['bottom'].set_visible(False)
 ax.spines['left'].set_visible(False)     
 
-savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p1.png',dpi=150,bbox_inches='tight')
+# savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p1.png',dpi=150,bbox_inches='tight')
 
 #%%
-ff = glob.glob(os.path.join(folder,'Livoni*'))[0]
+ff = glob.glob('runparklily/data/kml/Livon*')[0]
 f=open(ff)
 s=f.read()
 f.close()
@@ -71,8 +71,7 @@ ax.spines['left'].set_visible(False)
 savefig(r'C:\Users\calvinwu\Google Drive\transfer folder\p2.png',dpi=150,bbox_inches='tight')
 
 #%%
-folder = 'runparklily\\data\\kml'
-files = glob.glob(os.path.join(folder,'*'))
+files = glob.glob('runparklily/data/kml/*')
 
 gps={}
 cc=rcParams['axes.prop_cycle'].by_key()['color']*5
@@ -135,11 +134,11 @@ plot(0,0,'*',ms=10,c='k')
 # save(r'C:\Users\calvinwu\Google Drive\transfer folder\parkrun_us\runparklily\data\gps_coor.npy',gps)
 
 #%% summary
-summary = 'runparklily\\data\\courses.csv'
+summary = 'runparklily/data/courses.csv'
 df=pandas.read_csv(summary)
 from matplotlib import gridspec
 
-figure(figsize=[18,8])
+figure(figsize=[18,10])
 rcParams.update({'font.size': 16})
 
 gs=gridspec.GridSpec(1,2,width_ratios=(1,2))
