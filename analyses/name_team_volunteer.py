@@ -2,7 +2,7 @@ Dall = df[df.parkrun=='Lillie parkrun, Ann Arbor']
 Dvol = df2[df2.parkrun=='Lillie parkrun, Ann Arbor']
 from matplotlib import gridspec
 
-#%% first name team
+#% first name team
 gs = gridspec.GridSpec(2,1,height_ratios=(1,2))
 
 figure(figsize=(16,8))

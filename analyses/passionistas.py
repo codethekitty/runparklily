@@ -1,4 +1,4 @@
-#%% passionistas
+#% passionistas
 passionistas=[]
 for pr in df.parkrun.unique():
     thisparkrun = df[df.parkrun==pr]
@@ -23,7 +23,7 @@ for pr in df.parkrun.unique():
                 if count>10:
                     break
 
-#%% get top 3
+#% get top 3
 P=pandas.DataFrame.from_dict(passionistas)
 for pr in P.parkrun.unique():
     top3 = P[P.parkrun==pr].sort_values(by='count',ascending=False).iloc[:3,:]
@@ -34,7 +34,7 @@ for pr in P.parkrun.unique():
     else:
         P2=pandas.concat((P2,top3))
         
-#%% plot
+#% plot
 cc=rcParams['axes.prop_cycle'].by_key()['color']
 cc*=5
 mm = dict(zip(df.parkrun.unique(),arange(len(df.parkrun.unique()))))
@@ -59,6 +59,3 @@ title(tt,fontweight='normal',fontsize=10,loc='right')
 xlabel('# Events')
        
 savefig('shared/figures/passionistas.png',dpi=300,bbox_inches='tight')
-
-#%%
-P2=P[P.parkrun.str.find('Lillie')>-1]
