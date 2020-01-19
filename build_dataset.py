@@ -1,6 +1,6 @@
 from pylab import *
 import pandas,os,re
-import time,datetime
+import time,datetime,glob
 
 
 #%%
@@ -19,9 +19,9 @@ folder_list=remove_file(folder_list)
 P=[]
 V=[]
 for f in folder_list:
-    for ev in remove_file(os.listdir(os.path.join(sdir,f))):
-        ev_number = int(ev[5:-4])
-        L=load(os.path.join(sdir,f,ev),allow_pickle=True).item()
+    for ev in glob.glob(os.path.join(sdir,f,'event*')):
+        ev_number = int(ev[ev.find('event')+5:-4])
+        L=load(ev,allow_pickle=True).item()
         
         for v in L['volunteers']:
             V.append({'volunteer':v[0],'barcode':v[1],'parkrun':f,'event':ev_number})
