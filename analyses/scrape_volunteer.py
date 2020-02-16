@@ -22,9 +22,9 @@ def scrape_this(url):
 urlhead='https://www.parkrun.us/results/athleteresultshistory/?athleteNumber='
 
 dfc = df2.volunteer.value_counts()
-dv = list(dfc[dfc>2].index)
+dv = list(dfc[dfc>=1].index)
 df3 = df2[isin(df2.volunteer,dv)].drop(columns=['event','parkrun']).drop_duplicates()
-
+print(len(df3))
 for j,r in df3.iterrows():
     url = urlhead+r.barcode
     response = scrape_this(url)
@@ -37,7 +37,7 @@ for j,r in df3.iterrows():
             vdata.append([x.text for x in i])
     V={'barcode':r.barcode,'volunteer':r.volunteer,'data':vdata,'last_updated':datetime.datetime.now()}
     save(os.path.join('shared\\data\\raw_data\\volunteer_data','a'+r.barcode+'.npy'),V)
-    print(j,len(df3),r.volunteer)
+    print(r.volunteer,vdata)
     time.sleep(random(1)[0]*5+2)
     
 #%%
