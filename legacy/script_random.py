@@ -1,7 +1,29 @@
-from pylab import *
-import import_data,pandas
-df = import_data.import_result()
-df2 = import_data.import_volunteer()
+#%%
+N=[]
+totalnew=[]
+for ev in arange(1,D.event.max()+1):
+    names = list(D.parkrunner[D.event==ev].values)
+    N.extend(names)
+    totalnew.append(len(unique(N)))
+
+subplot(211)
+plot(totalnew)
+ylabel('total unique parkrunner')
+
+N=[]
+for i in arange(1,D.event.max()):
+    new = totalnew[i]-totalnew[i-1]
+    N.append(new)
+subplot(212)
+plot(arange(1,D.event.max()),N,'o-')
+# yticks(arange(0,40,10))
+
+xlabel('event #')
+ylabel('first timer at livonia')
+
+
+
+
 #%% adam vs steph
         
 #op = data_all[data_all.note.str.find('First Timer!')==0].groupby('event').count().pos

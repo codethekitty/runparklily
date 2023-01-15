@@ -39,4 +39,4 @@ ax.set_xlabel('Event #')
               
               
 fn = datetime.datetime.now().strftime('%Y_%m_%d')
-savefig('shared/figures/event_plot_'+fn+'.png',dpi=300,bbox_inches='tight')
+# savefig('shared/figures/event_plot_'+fn+'.png',dpi=300,bbox_inches='tight')

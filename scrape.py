@@ -24,6 +24,10 @@ all_prs = soup.find_all('a',href=re.compile('parkrun'),text=re.compile('parkrun'
 parkruns={}
 for s in all_prs:
     parkruns[s.text]=s.get('href')
+parkruns.pop(list(parkruns)[0])
+parkruns.pop(list(parkruns)[0])
+parkruns.pop(list(parkruns)[0])
+parkruns.pop(list(parkruns)[-1])
 
 #%%
 sdir='shared/data/raw_data/run_data'

@@ -332,3 +332,5 @@ tourism = pandas.DataFrame.from_dict(tourism)
 tourism = tourism.sort_values('n_different_parkrun',ascending=False).iloc[:50,:]
 tourism['rank']=arange(1,50+1)
 tourism.to_csv('shared/figures/top50_tourists.csv',index=False)
+
+#%%
