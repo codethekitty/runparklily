@@ -30,7 +30,7 @@ parkruns.pop(list(parkruns)[0])
 parkruns.pop(list(parkruns)[-1])
 
 #%%
-sdir='shared/data/raw_data/run_data'
+sdir='data/run_data'
     
 for K,V in parkruns.items():
     Kpath = os.path.join(sdir,K)
